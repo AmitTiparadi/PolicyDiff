@@ -1,0 +1,92 @@
+{
+  "google-20190122-20191015": {"decisions": [
+    [123,123,"modified","Sharing control is now conditional on being a G Suite user."],
+    [154,154,"reworded","Illustrative review example changes; identity disclosure remains the same."],
+    [198,203,"modified","Limited retention becomes longer retention with explicit business purposes."],
+    [199,207,"reworded","Read about becomes read more about; retention link meaning retained."],
+    [null,198,"added","Introduces differentiated retention periods and configuration."],
+    [null,199,"added","Explicit deletion of user-created content."],
+    [null,200,"added","Explicit activity deletion and automatic deletion settings."],
+    [null,201,"added","Explicit automatic deletion/anonymization of advertising logs."],
+    [null,202,"added","Explicit retention until account deletion."],
+    [null,204,"added","Explicit deletion process and anonymization."],
+    [null,228,"added","Additional referenced notice for children's Assistant audio." ]
+  ]},
+  "google-20230701-20231004": {"decisions": [
+    [235,null,"removed","Standalone product-specific policy reference removed; editorial change, not a new data practice."]
+  ]},
+  "google-20240328-20240916": {"decisions": [
+    [24,null,"removed","Introductory section tagline removed; editorial change."],
+    [71,null,"removed","Section tagline removed; editorial change."],
+    [111,null,"removed","Section tagline removed; editorial change."],
+    [191,null,"removed","Section tagline removed; editorial change."]
+  ]},
+  "mozilla-2022-12-14-2023-11-01": {"decisions": [
+    [2,2,"modified","mozillians.org removed from explicit scope examples."],
+    [3,3,"modified","Explicit domain list adds community/people and removes reps."],
+    [4,4,"reworded","Punctuation change; same enumerated collection interactions."],
+    [5,5,"reworded","Twitter renamed X, with same social interaction collection."],
+    [11,11,"modified","Mozilla Reps removed from public contributor disclosure."],
+    [17,16,"reworded","If possible becomes where possible; same minimization commitment."],
+    [18,17,"modified","Feedback collection channel changes from input to connect."],
+    [20,19,"modified","Account-creation scope and conditions change, including Relay and Monitor."],
+    [21,20,"reworded","Firefox accounts renamed Mozilla accounts; same account-management role."],
+    [23,22,"modified","Email processor vendor list changes."],
+    [27,26,"reworded","Third-party hyphenation only."],
+    [30,29,"modified","Removes explicit Firefox add-on setting example and Firefox-specific scope."],
+    [34,33,"reworded","Third-party hyphenation only."],
+    [42,null,"removed","DoubleClick/Flashtalking campaign measurement disclosure removed."],
+    [43,null,"removed","Associated advertising measurement statement removed."],
+    [44,null,"removed","Yahoo Dot Pixel disclosure removed."],
+    [45,null,"removed","Second advertising measurement statement removed."],
+    [52,47,"reworded","Opt-out hyphenation only."],
+    [53,48,"reworded","Drops redundant Firefox qualifier in browser preference instructions."],
+    [55,50,"reworded","Third-party hyphenation only."],
+    [56,51,"reworded","Adds connective phrase; same Do Not Track behavior."],
+    [57,52,"modified","Adds Thunderbird newsletter opt-out channel."],
+    [59,54,"reworded","Opt-out hyphenation only."],
+    [62,57,"reworded","Opt-out hyphenation only."],
+    [63,null,"removed","Yahoo opt-out instruction removed."],
+    [65,59,"reworded","Button/icon wording; same no-sharing-until-click condition."],
+    [67,61,"reworded","Third-party hyphenation only."],
+    [68,62,"modified","Payment provider list changes and no-financial-information statement disappears."],
+    [69,66,"modified","Donation service scope extends to Thunderbird and receipts."],
+    [70,63,"modified","Adds billing address, last four payment digits and subscription status."],
+    [71,64,"modified","Adds payment processing to stated purposes."],
+    [72,65,"modified","Retention changes from four to ten years and vendors change."],
+    [null,67,"added","Introduces data subject request portal."],
+    [null,68,"added","Introduces privacy contact email."],
+    [null,69,"added","Introduces response commitment for data protection requests."]
+  ], "excluded_groups": [
+    {"old_ids":[13,14],"new_ids":[13],"reason":"Two sentences merged using a semicolon. One-to-one alignment cannot represent this equivalent group."}
+  ]},
+  "mozilla-2023-11-01-2024-04-05": {"decisions": [
+    [22,22,"modified","Acoustic replaced with Braze in the email processor list."]
+  ]},
+  "automattic-2022-12-30-2023-11-02": {"decisions": [
+    [14,14,"modified","VIP website removed and Woo domain renamed in scope list."],
+    [16,16,"modified","VIP removed from services scope; shipping/tax product names change."],
+    [40,41,"reworded","Removes introductory example phrase, retains information collected."],
+    [42,43,"reworded","Woo branding changes; account requirement retained."],
+    [88,89,"reworded","Payments product renamed; same Stripe information."],
+    [125,131,"reworded","Woo branding changes; same recipient roles and information purposes."],
+    [181,188,"modified","Explicit US rights scope broadens beyond California."],
+    [210,217,"reworded","Any sale becomes the sale; same opt-out right."],
+    [228,236,"modified","Adds sharing and US state laws beyond CCPA to disclosure characterization."],
+    [230,null,"removed","Explicit under-16 non-sale commitment removed."],
+    [231,238,"reworded","Duplicate period removed; opt-out instructions retained."],
+    [273,288,"reworded","Woo product names change; third-party disclosure warning retained."],
+    [286,301,"modified","Jetpack resource link removed and Woo resource renamed; editorial reference change."],
+    [null,40,"added","Additional payment/revenue collection explanation."],
+    [null,150,"added","Follower/subscriber email sharing with site owners disclosed."]
+  ], "excluded_groups": [
+    {"old_ids":[119],"new_ids":[120,121,122,123,124,125],"reason":"Equivalent legal basis paragraph split into a heading and five numbered clauses."},
+    {"old_ids":[254,255,256,257,258,259],"new_ids":[261,262,263,264,265,266,267,268,269,270,271,272,273,274],"reason":"Controller address block reformatted as Markdown tables. Fragmented addresses and scope labels prevent auditable one-to-one ground correspondence."},
+    {"old_ids":[289],"new_ids":[304,305,306,307,308],"reason":"Translation links and controlling-language clause split across lines; same group meaning."},
+    {"old_ids":[],"new_ids":[221],"reason":"Italic section heading is currently segmented as a clause; editorial parser failure."}
+  ]},
+  "automattic-2023-11-02-2024-04-22": {"decisions": [
+    [196,196,"reworded","Illustrative state examples removed; non-exhaustive some-US-states disclosure requirement retained."],
+    [252,252,"modified","Specific appeal-jurisdiction list replaced by unspecific some-US-states scope; conservative label requiring independent review."]
+  ]}
+}

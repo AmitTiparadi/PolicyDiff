@@ -1,0 +1,6174 @@
+{
+  "annotation_authority": "AI-reviewed reference labels; no independent human validation",
+  "manifest": {
+    "annotation_authority": "AI-reviewed reference labels; no independent human validation",
+    "unchanged_authority": "Exact normalized text anchors",
+    "split": "All Google pairs development; Mozilla and Automattic held out by publisher",
+    "pairs": [
+      {
+        "id": "automattic-2022-12-30-2023-11-02",
+        "publisher": "automattic",
+        "partition": "test",
+        "old_clauses": 292,
+        "new_clauses": 311,
+        "labels": {
+          "unchanged": 271,
+          "modified": 5,
+          "reworded": 7,
+          "removed": 1,
+          "added": 2
+        },
+        "excluded_groups": [
+          {
+            "old_ids": [
+              119
+            ],
+            "new_ids": [
+              120,
+              121,
+              122,
+              123,
+              124,
+              125
+            ],
+            "reason": "Equivalent legal basis paragraph split into a heading and five numbered clauses."
+          },
+          {
+            "old_ids": [
+              254,
+              255,
+              256,
+              257,
+              258,
+              259
+            ],
+            "new_ids": [
+              261,
+              262,
+              263,
+              264,
+              265,
+              266,
+              267,
+              268,
+              269,
+              270,
+              271,
+              272,
+              273,
+              274
+            ],
+            "reason": "Controller address block reformatted as Markdown tables. Fragmented addresses and scope labels prevent auditable one-to-one ground correspondence."
+          },
+          {
+            "old_ids": [
+              289
+            ],
+            "new_ids": [
+              304,
+              305,
+              306,
+              307,
+              308
+            ],
+            "reason": "Translation links and controlling-language clause split across lines; same group meaning."
+          },
+          {
+            "old_ids": [],
+            "new_ids": [
+              221
+            ],
+            "reason": "Italic section heading is currently segmented as a clause; editorial parser failure."
+          }
+        ],
+        "excluded_old": [
+          119,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          289
+        ],
+        "excluded_new": [
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          221,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          304,
+          305,
+          306,
+          307,
+          308
+        ],
+        "old_sha256": "3708c597694dd327aa014cc215b68c80070f28d1ccfb934d1dace5975006eb84",
+        "new_sha256": "46597c3873c3127a06b055d7d7dd4e17eb29006478bf1be3d03b26970b69f97e",
+        "annotation_sha256": "956f27f155c6ac5fd206dbd1aff59dc10b6e4367a32e1d30f60dbfeb55f98a11"
+      },
+      {
+        "id": "automattic-2023-11-02-2024-04-22",
+        "publisher": "automattic",
+        "partition": "test",
+        "old_clauses": 311,
+        "new_clauses": 311,
+        "labels": {
+          "unchanged": 309,
+          "reworded": 1,
+          "modified": 1
+        },
+        "excluded_groups": [],
+        "excluded_old": [],
+        "excluded_new": [],
+        "old_sha256": "46597c3873c3127a06b055d7d7dd4e17eb29006478bf1be3d03b26970b69f97e",
+        "new_sha256": "8caf64af9468c4baaa0ebb1c899c8c8c59e43cb6ae09f4239d7043c5b71e98b9",
+        "annotation_sha256": "705abc45fd406ff8b6f2fabd8d2d0efac1cc14c3e2f6311764e1c7f6f158fb44"
+      },
+      {
+        "id": "google-20190122-20191015",
+        "publisher": "google",
+        "partition": "development",
+        "old_clauses": 389,
+        "new_clauses": 396,
+        "labels": {
+          "unchanged": 385,
+          "modified": 2,
+          "reworded": 2,
+          "added": 7
+        },
+        "excluded_groups": [],
+        "excluded_old": [],
+        "excluded_new": [],
+        "old_sha256": "b41ba407fed8581bbc273158b820c06f50259bb78bfb26932ef986529ff09cc4",
+        "new_sha256": "e2e36f9a925452004a672adc9b8ddabe4a38a91c9de32e25758addc2593faec9",
+        "annotation_sha256": "3cec8a413f7efcd8574de161e75a4c5a677fdbcda049450e5a82e169b20f5602"
+      },
+      {
+        "id": "google-20230701-20231004",
+        "publisher": "google",
+        "partition": "development",
+        "old_clauses": 422,
+        "new_clauses": 421,
+        "labels": {
+          "unchanged": 421,
+          "removed": 1
+        },
+        "excluded_groups": [],
+        "excluded_old": [],
+        "excluded_new": [],
+        "old_sha256": "feffda4fcc642c9a504f4b4a30a45abe6697353a4783321a950fda0fe778f300",
+        "new_sha256": "68ec37199ae316623b1c5bb9e8f7610c77e844d8802b833bc9995dd634254543",
+        "annotation_sha256": "cd41a2afc5ae720d28c9d2b68545977c414f4b1df2fa82b809953bf138e72ab6"
+      },
+      {
+        "id": "google-20240328-20240916",
+        "publisher": "google",
+        "partition": "development",
+        "old_clauses": 440,
+        "new_clauses": 436,
+        "labels": {
+          "unchanged": 436,
+          "removed": 4
+        },
+        "excluded_groups": [],
+        "excluded_old": [],
+        "excluded_new": [],
+        "old_sha256": "ec47e81fdf5d87846d52ef1f837782ee38d031ea148ff6370886be79fbe499f3",
+        "new_sha256": "f1eaf5dc5e7beae5ceeb423c0c3fbc8b520b68557853969ab43837496ff6e2e5",
+        "annotation_sha256": "6e5c9c0f79c39e517ce53e0cfa45b746244e0c761a928c2dfe2412f00424084a"
+      },
+      {
+        "id": "mozilla-2022-12-14-2023-11-01",
+        "publisher": "mozilla",
+        "partition": "test",
+        "old_clauses": 73,
+        "new_clauses": 70,
+        "labels": {
+          "unchanged": 39,
+          "modified": 13,
+          "reworded": 14,
+          "removed": 5,
+          "added": 3
+        },
+        "excluded_groups": [
+          {
+            "old_ids": [
+              13,
+              14
+            ],
+            "new_ids": [
+              13
+            ],
+            "reason": "Two sentences merged using a semicolon. One-to-one alignment cannot represent this equivalent group."
+          }
+        ],
+        "excluded_old": [
+          13,
+          14
+        ],
+        "excluded_new": [
+          13
+        ],
+        "old_sha256": "1a746c7faa13e4f2ccdb62491539c07797c1b85304b5ee7ede841271b37dad8a",
+        "new_sha256": "1263d646d2ee5e1c4882d0ab04c88ac143829e9ef91083ea837f0a3f46deaba3",
+        "annotation_sha256": "967f04c80fc2d5f2e8dc8a4b09e480f10732ec5c3899e3a8742c12fc56efce36"
+      },
+      {
+        "id": "mozilla-2023-11-01-2024-04-05",
+        "publisher": "mozilla",
+        "partition": "test",
+        "old_clauses": 70,
+        "new_clauses": 70,
+        "labels": {
+          "unchanged": 69,
+          "modified": 1
+        },
+        "excluded_groups": [],
+        "excluded_old": [],
+        "excluded_new": [],
+        "old_sha256": "1263d646d2ee5e1c4882d0ab04c88ac143829e9ef91083ea837f0a3f46deaba3",
+        "new_sha256": "b8cd857c85a0d72a861e07587554794b7f996e1313a7945f5d55b2401614a30a",
+        "annotation_sha256": "36a242e5b907be4d40892bd3669186f9c1a46f932f03cde5fded4a90f5b6a0cc"
+      }
+    ]
+  },
+  "methods": {
+    "difflib": {
+      "config": {
+        "engine": "textual",
+        "match_threshold": 0.55,
+        "reword_threshold": 0.88,
+        "ambiguity_margin": 0.04,
+        "use_critical_checks": false
+      },
+      "aggregate": {
+        "development": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1242.0
+            },
+            "reworded": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "modified": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "added": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 7.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 5.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.7142857142857143,
+              "recall": 0.7142857142857143,
+              "f1-score": 0.7142857142857143,
+              "support": 1258.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1258.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              1242,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 1258
+        },
+        "test": {
+          "alignment_precision": 0.9892617449664429,
+          "alignment_recall": 0.9946018893387314,
+          "change_precision": 0.8596491228070176,
+          "change_recall": 0.9245283018867925,
+          "change_f1": 0.8909090909090909,
+          "macro_f1_active": 0.6151587301587301,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 688.0
+            },
+            "reworded": {
+              "precision": 0.6785714285714286,
+              "recall": 0.8636363636363636,
+              "f1-score": 0.76,
+              "support": 22.0
+            },
+            "modified": {
+              "precision": 0.7,
+              "recall": 0.35,
+              "f1-score": 0.4666666666666667,
+              "support": 20.0
+            },
+            "added": {
+              "precision": 0.5555555555555556,
+              "recall": 1.0,
+              "f1-score": 0.7142857142857143,
+              "support": 5.0
+            },
+            "removed": {
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1-score": 0.75,
+              "support": 6.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 8.0
+            },
+            "accuracy": 0.9679572763684913,
+            "macro avg": {
+              "precision": 0.5048752834467121,
+              "recall": 0.601948051948052,
+              "f1-score": 0.5272789115646258,
+              "support": 749.0
+            },
+            "weighted avg": {
+              "precision": 0.9656960603556065,
+              "recall": 0.9679572763684913,
+              "f1-score": 0.9641185072159706,
+              "support": 749.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              688,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              19,
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              9,
+              7,
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              6,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4,
+              4,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 749
+        }
+      },
+      "pairs": {
+        "google-20190122-20191015": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 385.0
+            },
+            "reworded": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "modified": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "added": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 7.0
+            },
+            "removed": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.5714285714285714,
+              "recall": 0.5714285714285714,
+              "f1-score": 0.5714285714285714,
+              "support": 396.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 396.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              385,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 396
+        },
+        "google-20230701-20231004": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 421.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.2857142857142857,
+              "recall": 0.2857142857142857,
+              "f1-score": 0.2857142857142857,
+              "support": 422.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 422.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              421,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 422
+        },
+        "google-20240328-20240916": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 436.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 4.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.2857142857142857,
+              "recall": 0.2857142857142857,
+              "f1-score": 0.2857142857142857,
+              "support": 440.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 440.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              436,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 440
+        },
+        "automattic-2022-12-30-2023-11-02": {
+          "alignment_precision": 0.9930313588850174,
+          "alignment_recall": 0.9965034965034965,
+          "change_precision": 0.875,
+          "change_recall": 0.9333333333333333,
+          "change_f1": 0.9032258064516129,
+          "macro_f1_active": 0.6039215686274509,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 271.0
+            },
+            "reworded": {
+              "precision": 0.7,
+              "recall": 1.0,
+              "f1-score": 0.8235294117647058,
+              "support": 7.0
+            },
+            "modified": {
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1-score": 0.3333333333333333,
+              "support": 5.0
+            },
+            "added": {
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "f1-score": 0.8,
+              "support": 2.0
+            },
+            "removed": {
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1-score": 0.6666666666666666,
+              "support": 1.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 2.0
+            },
+            "accuracy": 0.9791666666666666,
+            "macro avg": {
+              "precision": 0.5523809523809524,
+              "recall": 0.6,
+              "f1-score": 0.5176470588235295,
+              "support": 288.0
+            },
+            "weighted avg": {
+              "precision": 0.9817129629629628,
+              "recall": 0.9791666666666666,
+              "f1-score": 0.9746459694989108,
+              "support": 288.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              271,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              7,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 288
+        },
+        "automattic-2023-11-02-2024-04-22": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 0.3333333333333333,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 309.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 1.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 1.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.9935691318327974,
+            "macro avg": {
+              "precision": 0.14285714285714285,
+              "recall": 0.14285714285714285,
+              "f1-score": 0.14285714285714285,
+              "support": 311.0
+            },
+            "weighted avg": {
+              "precision": 0.9935691318327974,
+              "recall": 0.9935691318327974,
+              "f1-score": 0.9935691318327974,
+              "support": 311.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              309,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 311
+        },
+        "mozilla-2022-12-14-2023-11-01": {
+          "alignment_precision": 0.922077922077922,
+          "alignment_recall": 0.9594594594594594,
+          "change_precision": 0.8421052631578947,
+          "change_recall": 0.9142857142857143,
+          "change_f1": 0.8767123287671234,
+          "macro_f1_active": 0.6345543345543345,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 39.0
+            },
+            "reworded": {
+              "precision": 0.75,
+              "recall": 0.8571428571428571,
+              "f1-score": 0.8,
+              "support": 14.0
+            },
+            "modified": {
+              "precision": 0.75,
+              "recall": 0.46153846153846156,
+              "f1-score": 0.5714285714285714,
+              "support": 13.0
+            },
+            "added": {
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1-score": 0.6666666666666666,
+              "support": 3.0
+            },
+            "removed": {
+              "precision": 0.625,
+              "recall": 1.0,
+              "f1-score": 0.7692307692307693,
+              "support": 5.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 6.0
+            },
+            "accuracy": 0.8125,
+            "macro avg": {
+              "precision": 0.5178571428571429,
+              "recall": 0.6169544740973313,
+              "f1-score": 0.5439037153322868,
+              "support": 80.0
+            },
+            "weighted avg": {
+              "precision": 0.7984375,
+              "recall": 0.8125,
+              "f1-score": 0.793434065934066,
+              "support": 80.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              39,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              12,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              6,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3,
+              3,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 80
+        },
+        "mozilla-2023-11-01-2024-04-05": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 0.3333333333333333,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 69.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 1.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.9857142857142858,
+            "macro avg": {
+              "precision": 0.14285714285714285,
+              "recall": 0.14285714285714285,
+              "f1-score": 0.14285714285714285,
+              "support": 70.0
+            },
+            "weighted avg": {
+              "precision": 0.9857142857142858,
+              "recall": 0.9857142857142858,
+              "f1-score": 0.9857142857142858,
+              "support": 70.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              69,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 70
+        }
+      },
+      "runtime": [
+        {
+          "pair": "automattic-2022-12-30-2023-11-02",
+          "median_seconds": 1.4694849000006798,
+          "repeats": [
+            1.4701318999996147,
+            1.4694849000006798,
+            1.4574084000005314
+          ]
+        },
+        {
+          "pair": "automattic-2023-11-02-2024-04-22",
+          "median_seconds": 0.019196500000361993,
+          "repeats": [
+            0.022249000000556407,
+            0.019196500000361993,
+            0.018628699999680975
+          ]
+        },
+        {
+          "pair": "mozilla-2022-12-14-2023-11-01",
+          "median_seconds": 0.8781322000004366,
+          "repeats": [
+            0.9133048999992752,
+            0.8781322000004366,
+            0.8643775999998979
+          ]
+        },
+        {
+          "pair": "mozilla-2023-11-01-2024-04-05",
+          "median_seconds": 0.004647099999601778,
+          "repeats": [
+            0.004647099999601778,
+            0.004549799999949755,
+            0.0047130000002653105
+          ]
+        }
+      ],
+      "mean_warm_core_seconds": 0.59286517500027
+    },
+    "TF-IDF": {
+      "config": {
+        "engine": "tfidf",
+        "match_threshold": 0.55,
+        "reword_threshold": 0.88,
+        "ambiguity_margin": 0.04,
+        "use_critical_checks": false
+      },
+      "aggregate": {
+        "development": {
+          "alignment_precision": 0.9984114376489277,
+          "alignment_recall": 0.9992050874403816,
+          "change_precision": 0.8823529411764706,
+          "change_recall": 0.9375,
+          "change_f1": 0.9090909090909091,
+          "macro_f1_active": 0.7515151515151516,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1242.0
+            },
+            "reworded": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "modified": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1-score": 0.6666666666666666,
+              "support": 2.0
+            },
+            "added": {
+              "precision": 0.875,
+              "recall": 1.0,
+              "f1-score": 0.9333333333333333,
+              "support": 7.0
+            },
+            "removed": {
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1-score": 0.9090909090909091,
+              "support": 5.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 2.0
+            },
+            "accuracy": 0.9976190476190476,
+            "macro avg": {
+              "precision": 0.6726190476190476,
+              "recall": 0.6428571428571429,
+              "f1-score": 0.6441558441558441,
+              "support": 1260.0
+            },
+            "weighted avg": {
+              "precision": 0.9970568783068784,
+              "recall": 0.9976190476190476,
+              "f1-score": 0.997152477152477,
+              "support": 1260.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              1242,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              7,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 1260
+        },
+        "test": {
+          "alignment_precision": 0.9865951742627346,
+          "alignment_recall": 0.9932523616734144,
+          "change_precision": 0.8275862068965517,
+          "change_recall": 0.9056603773584906,
+          "change_f1": 0.8648648648648648,
+          "macro_f1_active": 0.5956936538056082,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 688.0
+            },
+            "reworded": {
+              "precision": 0.6923076923076923,
+              "recall": 0.8181818181818182,
+              "f1-score": 0.75,
+              "support": 22.0
+            },
+            "modified": {
+              "precision": 0.6363636363636364,
+              "recall": 0.35,
+              "f1-score": 0.45161290322580644,
+              "support": 20.0
+            },
+            "added": {
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1-score": 0.6666666666666666,
+              "support": 5.0
+            },
+            "removed": {
+              "precision": 0.5454545454545454,
+              "recall": 1.0,
+              "f1-score": 0.7058823529411765,
+              "support": 6.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 10.0
+            },
+            "accuracy": 0.9640479360852197,
+            "macro avg": {
+              "precision": 0.482017982017982,
+              "recall": 0.5954545454545455,
+              "f1-score": 0.5105945604048071,
+              "support": 751.0
+            },
+            "weighted avg": {
+              "precision": 0.9610263238758578,
+              "recall": 0.9640479360852197,
+              "f1-score": 0.9601875972243629,
+              "support": 751.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              688,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              18,
+              4,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              8,
+              7,
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              0,
+              0,
+              0,
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              6,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5,
+              5,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 751
+        }
+      },
+      "pairs": {
+        "google-20190122-20191015": {
+          "alignment_precision": 0.9949622166246851,
+          "alignment_recall": 0.9974747474747475,
+          "change_precision": 0.8333333333333334,
+          "change_recall": 0.9090909090909091,
+          "change_f1": 0.8695652173913043,
+          "macro_f1_active": 0.6,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 385.0
+            },
+            "reworded": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "modified": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1-score": 0.6666666666666666,
+              "support": 2.0
+            },
+            "added": {
+              "precision": 0.875,
+              "recall": 1.0,
+              "f1-score": 0.9333333333333333,
+              "support": 7.0
+            },
+            "removed": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 2.0
+            },
+            "accuracy": 0.992462311557789,
+            "macro avg": {
+              "precision": 0.5535714285714286,
+              "recall": 0.5,
+              "f1-score": 0.5142857142857142,
+              "support": 398.0
+            },
+            "weighted avg": {
+              "precision": 0.9927763819095478,
+              "recall": 0.992462311557789,
+              "f1-score": 0.9921273031825796,
+              "support": 398.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              385,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              7,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 398
+        },
+        "google-20230701-20231004": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 421.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.2857142857142857,
+              "recall": 0.2857142857142857,
+              "f1-score": 0.2857142857142857,
+              "support": 422.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 422.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              421,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 422
+        },
+        "google-20240328-20240916": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 436.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 4.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.2857142857142857,
+              "recall": 0.2857142857142857,
+              "f1-score": 0.2857142857142857,
+              "support": 440.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 440.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              436,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 440
+        },
+        "automattic-2022-12-30-2023-11-02": {
+          "alignment_precision": 0.9930313588850174,
+          "alignment_recall": 0.9965034965034965,
+          "change_precision": 0.875,
+          "change_recall": 0.9333333333333333,
+          "change_f1": 0.9032258064516129,
+          "macro_f1_active": 0.5638888888888889,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 271.0
+            },
+            "reworded": {
+              "precision": 0.625,
+              "recall": 0.7142857142857143,
+              "f1-score": 0.6666666666666666,
+              "support": 7.0
+            },
+            "modified": {
+              "precision": 0.3333333333333333,
+              "recall": 0.2,
+              "f1-score": 0.25,
+              "support": 5.0
+            },
+            "added": {
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "f1-score": 0.8,
+              "support": 2.0
+            },
+            "removed": {
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1-score": 0.6666666666666666,
+              "support": 1.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 2.0
+            },
+            "accuracy": 0.9722222222222222,
+            "macro avg": {
+              "precision": 0.44642857142857145,
+              "recall": 0.5591836734693878,
+              "f1-score": 0.48333333333333334,
+              "support": 288.0
+            },
+            "weighted avg": {
+              "precision": 0.9683159722222222,
+              "recall": 0.9722222222222222,
+              "f1-score": 0.9693865740740742,
+              "support": 288.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              271,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              5,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 288
+        },
+        "automattic-2023-11-02-2024-04-22": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 0.5555555555555555,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 309.0
+            },
+            "reworded": {
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1-score": 0.6666666666666666,
+              "support": 1.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 1.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.9967845659163987,
+            "macro avg": {
+              "precision": 0.21428571428571427,
+              "recall": 0.2857142857142857,
+              "f1-score": 0.23809523809523808,
+              "support": 311.0
+            },
+            "weighted avg": {
+              "precision": 0.9951768488745981,
+              "recall": 0.9967845659163987,
+              "f1-score": 0.9957127545551984,
+              "support": 311.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              309,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 311
+        },
+        "mozilla-2022-12-14-2023-11-01": {
+          "alignment_precision": 0.8974358974358975,
+          "alignment_recall": 0.9459459459459459,
+          "change_precision": 0.7948717948717948,
+          "change_recall": 0.8857142857142857,
+          "change_f1": 0.8378378378378378,
+          "macro_f1_active": 0.6188834154351396,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 39.0
+            },
+            "reworded": {
+              "precision": 0.8,
+              "recall": 0.8571428571428571,
+              "f1-score": 0.8275862068965517,
+              "support": 14.0
+            },
+            "modified": {
+              "precision": 0.75,
+              "recall": 0.46153846153846156,
+              "f1-score": 0.5714285714285714,
+              "support": 13.0
+            },
+            "added": {
+              "precision": 0.42857142857142855,
+              "recall": 1.0,
+              "f1-score": 0.6,
+              "support": 3.0
+            },
+            "removed": {
+              "precision": 0.5555555555555556,
+              "recall": 1.0,
+              "f1-score": 0.7142857142857143,
+              "support": 5.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 8.0
+            },
+            "accuracy": 0.7926829268292683,
+            "macro avg": {
+              "precision": 0.504875283446712,
+              "recall": 0.6169544740973313,
+              "f1-score": 0.5304714989444054,
+              "support": 82.0
+            },
+            "weighted avg": {
+              "precision": 0.7806523422377081,
+              "recall": 0.7926829268292683,
+              "f1-score": 0.7730025231286795,
+              "support": 82.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              39,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              12,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              6,
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4,
+              4,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 82
+        },
+        "mozilla-2023-11-01-2024-04-05": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 0.3333333333333333,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 69.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 1.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.9857142857142858,
+            "macro avg": {
+              "precision": 0.14285714285714285,
+              "recall": 0.14285714285714285,
+              "f1-score": 0.14285714285714285,
+              "support": 70.0
+            },
+            "weighted avg": {
+              "precision": 0.9857142857142858,
+              "recall": 0.9857142857142858,
+              "f1-score": 0.9857142857142858,
+              "support": 70.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              69,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 70
+        }
+      },
+      "runtime": [
+        {
+          "pair": "automattic-2022-12-30-2023-11-02",
+          "median_seconds": 0.02618640000036976,
+          "repeats": [
+            0.025883100000100967,
+            0.026341400000092108,
+            0.02618640000036976
+          ]
+        },
+        {
+          "pair": "automattic-2023-11-02-2024-04-22",
+          "median_seconds": 0.015599100000144972,
+          "repeats": [
+            0.016036699999858683,
+            0.01549090000025899,
+            0.015599100000144972
+          ]
+        },
+        {
+          "pair": "mozilla-2022-12-14-2023-11-01",
+          "median_seconds": 0.014108999999734806,
+          "repeats": [
+            0.014007100000526407,
+            0.014112300000306277,
+            0.014108999999734806
+          ]
+        },
+        {
+          "pair": "mozilla-2023-11-01-2024-04-05",
+          "median_seconds": 0.004253900000549038,
+          "repeats": [
+            0.004292599999644153,
+            0.00419529999999213,
+            0.004253900000549038
+          ]
+        }
+      ],
+      "mean_warm_core_seconds": 0.015037100000199644
+    },
+    "SBERT alone": {
+      "config": {
+        "engine": "semantic",
+        "match_threshold": 0.55,
+        "reword_threshold": 0.94,
+        "ambiguity_margin": 0.04,
+        "use_critical_checks": false
+      },
+      "aggregate": {
+        "development": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1242.0
+            },
+            "reworded": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "modified": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "added": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 7.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 5.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.7142857142857143,
+              "recall": 0.7142857142857143,
+              "f1-score": 0.7142857142857143,
+              "support": 1258.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1258.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              1242,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 1258
+        },
+        "test": {
+          "alignment_precision": 0.9973009446693657,
+          "alignment_recall": 0.9973009446693657,
+          "change_precision": 0.9622641509433962,
+          "change_recall": 0.9622641509433962,
+          "change_f1": 0.9622641509433962,
+          "macro_f1_active": 0.6935185185185185,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 688.0
+            },
+            "reworded": {
+              "precision": 0.6923076923076923,
+              "recall": 0.8181818181818182,
+              "f1-score": 0.75,
+              "support": 22.0
+            },
+            "modified": {
+              "precision": 0.6875,
+              "recall": 0.55,
+              "f1-score": 0.6111111111111112,
+              "support": 20.0
+            },
+            "added": {
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1-score": 0.8,
+              "support": 5.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 6.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 2.0
+            },
+            "accuracy": 0.9784656796769852,
+            "macro avg": {
+              "precision": 0.5971153846153846,
+              "recall": 0.5954545454545455,
+              "f1-score": 0.5944444444444444,
+              "support": 743.0
+            },
+            "weighted avg": {
+              "precision": 0.9784397970804432,
+              "recall": 0.9784656796769852,
+              "f1-score": 0.9780918199491551,
+              "support": 743.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              688,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              18,
+              4,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              8,
+              11,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              4,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              6,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 743
+        }
+      },
+      "pairs": {
+        "google-20190122-20191015": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 385.0
+            },
+            "reworded": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "modified": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "added": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 7.0
+            },
+            "removed": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.5714285714285714,
+              "recall": 0.5714285714285714,
+              "f1-score": 0.5714285714285714,
+              "support": 396.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 396.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              385,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 396
+        },
+        "google-20230701-20231004": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 421.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.2857142857142857,
+              "recall": 0.2857142857142857,
+              "f1-score": 0.2857142857142857,
+              "support": 422.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 422.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              421,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 422
+        },
+        "google-20240328-20240916": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 436.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 4.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.2857142857142857,
+              "recall": 0.2857142857142857,
+              "f1-score": 0.2857142857142857,
+              "support": 440.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 440.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              436,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 440
+        },
+        "automattic-2022-12-30-2023-11-02": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 0.8789915966386553,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 271.0
+            },
+            "reworded": {
+              "precision": 0.7,
+              "recall": 1.0,
+              "f1-score": 0.8235294117647058,
+              "support": 7.0
+            },
+            "modified": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1-score": 0.5714285714285714,
+              "support": 5.0
+            },
+            "added": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.9895104895104895,
+            "macro avg": {
+              "precision": 0.6714285714285715,
+              "recall": 0.6285714285714287,
+              "f1-score": 0.6278511404561825,
+              "support": 286.0
+            },
+            "weighted avg": {
+              "precision": 0.9926573426573426,
+              "recall": 0.9895104895104895,
+              "f1-score": 0.9881882823059293,
+              "support": 286.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              271,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              7,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 286
+        },
+        "automattic-2023-11-02-2024-04-22": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 0.3333333333333333,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 309.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 1.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 1.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.9935691318327974,
+            "macro avg": {
+              "precision": 0.14285714285714285,
+              "recall": 0.14285714285714285,
+              "f1-score": 0.14285714285714285,
+              "support": 311.0
+            },
+            "weighted avg": {
+              "precision": 0.9935691318327974,
+              "recall": 0.9935691318327974,
+              "f1-score": 0.9935691318327974,
+              "support": 311.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              309,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 311
+        },
+        "mozilla-2022-12-14-2023-11-01": {
+          "alignment_precision": 0.972972972972973,
+          "alignment_recall": 0.972972972972973,
+          "change_precision": 0.9428571428571428,
+          "change_recall": 0.9428571428571428,
+          "change_f1": 0.9428571428571428,
+          "macro_f1_active": 0.6907814407814407,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 39.0
+            },
+            "reworded": {
+              "precision": 0.7857142857142857,
+              "recall": 0.7857142857142857,
+              "f1-score": 0.7857142857142857,
+              "support": 14.0
+            },
+            "modified": {
+              "precision": 0.6923076923076923,
+              "recall": 0.6923076923076923,
+              "f1-score": 0.6923076923076923,
+              "support": 13.0
+            },
+            "added": {
+              "precision": 0.6666666666666666,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.6666666666666666,
+              "support": 3.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 5.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 2.0
+            },
+            "accuracy": 0.868421052631579,
+            "macro avg": {
+              "precision": 0.5920983778126635,
+              "recall": 0.5920983778126635,
+              "f1-score": 0.5920983778126635,
+              "support": 76.0
+            },
+            "weighted avg": {
+              "precision": 0.868421052631579,
+              "recall": 0.868421052631579,
+              "f1-score": 0.868421052631579,
+              "support": 76.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              39,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              11,
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              9,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 76
+        },
+        "mozilla-2023-11-01-2024-04-05": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 0.3333333333333333,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 69.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 1.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.9857142857142858,
+            "macro avg": {
+              "precision": 0.14285714285714285,
+              "recall": 0.14285714285714285,
+              "f1-score": 0.14285714285714285,
+              "support": 70.0
+            },
+            "weighted avg": {
+              "precision": 0.9857142857142858,
+              "recall": 0.9857142857142858,
+              "f1-score": 0.9857142857142858,
+              "support": 70.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              69,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 70
+        }
+      },
+      "runtime": [
+        {
+          "pair": "automattic-2022-12-30-2023-11-02",
+          "median_seconds": 0.9895383000002766,
+          "repeats": [
+            0.9830425000000105,
+            0.9895383000002766,
+            1.0039211000002979
+          ]
+        },
+        {
+          "pair": "automattic-2023-11-02-2024-04-22",
+          "median_seconds": 0.05496229999971547,
+          "repeats": [
+            0.05568750000020373,
+            0.05313980000028096,
+            0.05496229999971547
+          ]
+        },
+        {
+          "pair": "mozilla-2022-12-14-2023-11-01",
+          "median_seconds": 0.4453051000000414,
+          "repeats": [
+            0.40630609999971057,
+            0.4488916000000245,
+            0.4453051000000414
+          ]
+        },
+        {
+          "pair": "mozilla-2023-11-01-2024-04-05",
+          "median_seconds": 0.033110800000031304,
+          "repeats": [
+            0.033110800000031304,
+            0.038999600000352075,
+            0.030691799999658542
+          ]
+        }
+      ],
+      "mean_warm_core_seconds": 0.3807291250000162
+    },
+    "PolicyDiff": {
+      "config": {
+        "engine": "semantic",
+        "match_threshold": 0.55,
+        "reword_threshold": 0.94,
+        "ambiguity_margin": 0.04,
+        "use_critical_checks": true
+      },
+      "aggregate": {
+        "development": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1242.0
+            },
+            "reworded": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "modified": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "added": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 7.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 5.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.7142857142857143,
+              "recall": 0.7142857142857143,
+              "f1-score": 0.7142857142857143,
+              "support": 1258.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1258.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              1242,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 1258
+        },
+        "test": {
+          "alignment_precision": 0.9973009446693657,
+          "alignment_recall": 0.9973009446693657,
+          "change_precision": 0.9622641509433962,
+          "change_recall": 0.9622641509433962,
+          "change_f1": 0.9622641509433962,
+          "macro_f1_active": 0.6935185185185185,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 688.0
+            },
+            "reworded": {
+              "precision": 0.6923076923076923,
+              "recall": 0.8181818181818182,
+              "f1-score": 0.75,
+              "support": 22.0
+            },
+            "modified": {
+              "precision": 0.6875,
+              "recall": 0.55,
+              "f1-score": 0.6111111111111112,
+              "support": 20.0
+            },
+            "added": {
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1-score": 0.8,
+              "support": 5.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 6.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 2.0
+            },
+            "accuracy": 0.9784656796769852,
+            "macro avg": {
+              "precision": 0.5971153846153846,
+              "recall": 0.5954545454545455,
+              "f1-score": 0.5944444444444444,
+              "support": 743.0
+            },
+            "weighted avg": {
+              "precision": 0.9784397970804432,
+              "recall": 0.9784656796769852,
+              "f1-score": 0.9780918199491551,
+              "support": 743.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              688,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              18,
+              4,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              8,
+              11,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              4,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              6,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 743
+        }
+      },
+      "pairs": {
+        "google-20190122-20191015": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 385.0
+            },
+            "reworded": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "modified": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "added": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 7.0
+            },
+            "removed": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.5714285714285714,
+              "recall": 0.5714285714285714,
+              "f1-score": 0.5714285714285714,
+              "support": 396.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 396.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              385,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 396
+        },
+        "google-20230701-20231004": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 421.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.2857142857142857,
+              "recall": 0.2857142857142857,
+              "f1-score": 0.2857142857142857,
+              "support": 422.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 422.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              421,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 422
+        },
+        "google-20240328-20240916": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 1.0,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 436.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 4.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+              "precision": 0.2857142857142857,
+              "recall": 0.2857142857142857,
+              "f1-score": 0.2857142857142857,
+              "support": 440.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 440.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              436,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 440
+        },
+        "automattic-2022-12-30-2023-11-02": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 0.8789915966386553,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 271.0
+            },
+            "reworded": {
+              "precision": 0.7,
+              "recall": 1.0,
+              "f1-score": 0.8235294117647058,
+              "support": 7.0
+            },
+            "modified": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1-score": 0.5714285714285714,
+              "support": 5.0
+            },
+            "added": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 1.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.9895104895104895,
+            "macro avg": {
+              "precision": 0.6714285714285715,
+              "recall": 0.6285714285714287,
+              "f1-score": 0.6278511404561825,
+              "support": 286.0
+            },
+            "weighted avg": {
+              "precision": 0.9926573426573426,
+              "recall": 0.9895104895104895,
+              "f1-score": 0.9881882823059293,
+              "support": 286.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              271,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              7,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 286
+        },
+        "automattic-2023-11-02-2024-04-22": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 0.3333333333333333,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 309.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 1.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 1.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.9935691318327974,
+            "macro avg": {
+              "precision": 0.14285714285714285,
+              "recall": 0.14285714285714285,
+              "f1-score": 0.14285714285714285,
+              "support": 311.0
+            },
+            "weighted avg": {
+              "precision": 0.9935691318327974,
+              "recall": 0.9935691318327974,
+              "f1-score": 0.9935691318327974,
+              "support": 311.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              309,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 311
+        },
+        "mozilla-2022-12-14-2023-11-01": {
+          "alignment_precision": 0.972972972972973,
+          "alignment_recall": 0.972972972972973,
+          "change_precision": 0.9428571428571428,
+          "change_recall": 0.9428571428571428,
+          "change_f1": 0.9428571428571428,
+          "macro_f1_active": 0.6907814407814407,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 39.0
+            },
+            "reworded": {
+              "precision": 0.7857142857142857,
+              "recall": 0.7857142857142857,
+              "f1-score": 0.7857142857142857,
+              "support": 14.0
+            },
+            "modified": {
+              "precision": 0.6923076923076923,
+              "recall": 0.6923076923076923,
+              "f1-score": 0.6923076923076923,
+              "support": 13.0
+            },
+            "added": {
+              "precision": 0.6666666666666666,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.6666666666666666,
+              "support": 3.0
+            },
+            "removed": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 5.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 2.0
+            },
+            "accuracy": 0.868421052631579,
+            "macro avg": {
+              "precision": 0.5920983778126635,
+              "recall": 0.5920983778126635,
+              "f1-score": 0.5920983778126635,
+              "support": 76.0
+            },
+            "weighted avg": {
+              "precision": 0.868421052631579,
+              "recall": 0.868421052631579,
+              "f1-score": 0.868421052631579,
+              "support": 76.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              39,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              11,
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              9,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 76
+        },
+        "mozilla-2023-11-01-2024-04-05": {
+          "alignment_precision": 1.0,
+          "alignment_recall": 1.0,
+          "change_precision": 1.0,
+          "change_recall": 1.0,
+          "change_f1": 1.0,
+          "macro_f1_active": 0.3333333333333333,
+          "classification": {
+            "unchanged": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 69.0
+            },
+            "reworded": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "modified": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 1.0
+            },
+            "added": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "removed": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "review": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "no_pair": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.9857142857142858,
+            "macro avg": {
+              "precision": 0.14285714285714285,
+              "recall": 0.14285714285714285,
+              "f1-score": 0.14285714285714285,
+              "support": 70.0
+            },
+            "weighted avg": {
+              "precision": 0.9857142857142858,
+              "recall": 0.9857142857142858,
+              "f1-score": 0.9857142857142858,
+              "support": 70.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              69,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "unchanged",
+            "reworded",
+            "modified",
+            "added",
+            "removed",
+            "review",
+            "no_pair"
+          ],
+          "scored_pair_union": 70
+        }
+      },
+      "runtime": [
+        {
+          "pair": "automattic-2022-12-30-2023-11-02",
+          "median_seconds": 1.064077900000484,
+          "repeats": [
+            1.064077900000484,
+            1.0694435999994312,
+            1.036773599999833
+          ]
+        },
+        {
+          "pair": "automattic-2023-11-02-2024-04-22",
+          "median_seconds": 0.05866379999952187,
+          "repeats": [
+            0.06000009999934264,
+            0.05502800000067509,
+            0.05866379999952187
+          ]
+        },
+        {
+          "pair": "mozilla-2022-12-14-2023-11-01",
+          "median_seconds": 0.48383299999932206,
+          "repeats": [
+            0.4618878000001132,
+            0.48383299999932206,
+            0.5819588999993357
+          ]
+        },
+        {
+          "pair": "mozilla-2023-11-01-2024-04-05",
+          "median_seconds": 0.02942339999935939,
+          "repeats": [
+            0.03759600000012142,
+            0.02777339999920514,
+            0.02942339999935939
+          ]
+        }
+      ],
+      "mean_warm_core_seconds": 0.40899952499967185
+    }
+  },
+  "controlled_ablation": {
+    "without_checks": {
+      "alignment_precision": 0.9973009446693657,
+      "alignment_recall": 0.9973009446693657,
+      "change_precision": 0.9622641509433962,
+      "change_recall": 0.9622641509433962,
+      "change_f1": 0.9622641509433962,
+      "macro_f1_active": 0.6935185185185185,
+      "classification": {
+        "unchanged": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 688.0
+        },
+        "reworded": {
+          "precision": 0.6923076923076923,
+          "recall": 0.8181818181818182,
+          "f1-score": 0.75,
+          "support": 22.0
+        },
+        "modified": {
+          "precision": 0.6875,
+          "recall": 0.55,
+          "f1-score": 0.6111111111111112,
+          "support": 20.0
+        },
+        "added": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8,
+          "support": 5.0
+        },
+        "removed": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 6.0
+        },
+        "review": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "no_pair": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "accuracy": 0.9784656796769852,
+        "macro avg": {
+          "precision": 0.5971153846153846,
+          "recall": 0.5954545454545455,
+          "f1-score": 0.5944444444444444,
+          "support": 743.0
+        },
+        "weighted avg": {
+          "precision": 0.9784397970804432,
+          "recall": 0.9784656796769852,
+          "f1-score": 0.9780918199491551,
+          "support": 743.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          688,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          18,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          11,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "labels": [
+        "unchanged",
+        "reworded",
+        "modified",
+        "added",
+        "removed",
+        "review",
+        "no_pair"
+      ],
+      "scored_pair_union": 743
+    },
+    "with_checks": {
+      "alignment_precision": 0.9973009446693657,
+      "alignment_recall": 0.9973009446693657,
+      "change_precision": 0.9622641509433962,
+      "change_recall": 0.9622641509433962,
+      "change_f1": 0.9622641509433962,
+      "macro_f1_active": 0.6935185185185185,
+      "classification": {
+        "unchanged": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 688.0
+        },
+        "reworded": {
+          "precision": 0.6923076923076923,
+          "recall": 0.8181818181818182,
+          "f1-score": 0.75,
+          "support": 22.0
+        },
+        "modified": {
+          "precision": 0.6875,
+          "recall": 0.55,
+          "f1-score": 0.6111111111111112,
+          "support": 20.0
+        },
+        "added": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8,
+          "support": 5.0
+        },
+        "removed": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 6.0
+        },
+        "review": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "no_pair": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "accuracy": 0.9784656796769852,
+        "macro avg": {
+          "precision": 0.5971153846153846,
+          "recall": 0.5954545454545455,
+          "f1-score": 0.5944444444444444,
+          "support": 743.0
+        },
+        "weighted avg": {
+          "precision": 0.9784397970804432,
+          "recall": 0.9784656796769852,
+          "f1-score": 0.9780918199491551,
+          "support": 743.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          688,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          18,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          11,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "labels": [
+        "unchanged",
+        "reworded",
+        "modified",
+        "added",
+        "removed",
+        "review",
+        "no_pair"
+      ],
+      "scored_pair_union": 743
+    }
+  },
+  "threshold_search": [
+    {
+      "method": "difflib",
+      "match": 0.4,
+      "reword": 0.8,
+      "development_macro_f1": 0.8933333333333333
+    },
+    {
+      "method": "difflib",
+      "match": 0.4,
+      "reword": 0.88,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "difflib",
+      "match": 0.4,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "difflib",
+      "match": 0.5,
+      "reword": 0.8,
+      "development_macro_f1": 0.8933333333333333
+    },
+    {
+      "method": "difflib",
+      "match": 0.5,
+      "reword": 0.88,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "difflib",
+      "match": 0.5,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "difflib",
+      "match": 0.55,
+      "reword": 0.8,
+      "development_macro_f1": 0.8933333333333333
+    },
+    {
+      "method": "difflib",
+      "match": 0.55,
+      "reword": 0.88,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "difflib",
+      "match": 0.55,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "difflib",
+      "match": 0.6,
+      "reword": 0.8,
+      "development_macro_f1": 0.6070707070707071
+    },
+    {
+      "method": "difflib",
+      "match": 0.6,
+      "reword": 0.88,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "difflib",
+      "match": 0.6,
+      "reword": 0.94,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "difflib",
+      "match": 0.7,
+      "reword": 0.8,
+      "development_macro_f1": 0.6070707070707071
+    },
+    {
+      "method": "difflib",
+      "match": 0.7,
+      "reword": 0.88,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "difflib",
+      "match": 0.7,
+      "reword": 0.94,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.4,
+      "reword": 0.8,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.4,
+      "reword": 0.88,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.4,
+      "reword": 0.94,
+      "development_macro_f1": 0.5404040404040404
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.5,
+      "reword": 0.8,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.5,
+      "reword": 0.88,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.5,
+      "reword": 0.94,
+      "development_macro_f1": 0.5404040404040404
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.55,
+      "reword": 0.8,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.55,
+      "reword": 0.88,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.55,
+      "reword": 0.94,
+      "development_macro_f1": 0.5404040404040404
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.6,
+      "reword": 0.8,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.6,
+      "reword": 0.88,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.6,
+      "reword": 0.94,
+      "development_macro_f1": 0.5404040404040404
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.7,
+      "reword": 0.8,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.7,
+      "reword": 0.88,
+      "development_macro_f1": 0.7515151515151516
+    },
+    {
+      "method": "TF-IDF",
+      "match": 0.7,
+      "reword": 0.94,
+      "development_macro_f1": 0.5404040404040404
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.4,
+      "reword": 0.8,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.4,
+      "reword": 0.88,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.4,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.5,
+      "reword": 0.8,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.5,
+      "reword": 0.88,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.5,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.55,
+      "reword": 0.8,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.55,
+      "reword": 0.88,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.55,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.6,
+      "reword": 0.8,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.6,
+      "reword": 0.88,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.6,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.7,
+      "reword": 0.8,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.7,
+      "reword": 0.88,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "SBERT alone",
+      "match": 0.7,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.4,
+      "reword": 0.8,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.4,
+      "reword": 0.88,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.4,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.5,
+      "reword": 0.8,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.5,
+      "reword": 0.88,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.5,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.55,
+      "reword": 0.8,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.55,
+      "reword": 0.88,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.55,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.6,
+      "reword": 0.8,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.6,
+      "reword": 0.88,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.6,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.7,
+      "reword": 0.8,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.7,
+      "reword": 0.88,
+      "development_macro_f1": 0.7333333333333333
+    },
+    {
+      "method": "PolicyDiff",
+      "match": 0.7,
+      "reword": 0.94,
+      "development_macro_f1": 1.0
+    }
+  ],
+  "initial_scoring_seconds": {
+    "automattic-2022-12-30-2023-11-02:textual": 1.4443288000002212,
+    "automattic-2022-12-30-2023-11-02:tfidf": 0.02919209999981831,
+    "automattic-2022-12-30-2023-11-02:semantic": 11.356007400000635,
+    "automattic-2023-11-02-2024-04-22:textual": 0.012225299999954586,
+    "automattic-2023-11-02-2024-04-22:tfidf": 0.010836700000254496,
+    "automattic-2023-11-02-2024-04-22:semantic": 0.044981400000324356,
+    "google-20190122-20191015:textual": 0.03942860000006476,
+    "google-20190122-20191015:tfidf": 0.010290599999279948,
+    "google-20190122-20191015:semantic": 0.09662509999998292,
+    "google-20230701-20231004:textual": 0.00769639999998617,
+    "google-20230701-20231004:tfidf": 0.007537800000136485,
+    "google-20230701-20231004:semantic": 0.007455599999957485,
+    "google-20240328-20240916:textual": 0.007699499999944237,
+    "google-20240328-20240916:tfidf": 0.007458300000507734,
+    "google-20240328-20240916:semantic": 0.007410700000036741,
+    "mozilla-2022-12-14-2023-11-01:textual": 0.8972886000001381,
+    "mozilla-2022-12-14-2023-11-01:tfidf": 0.006940799999938463,
+    "mozilla-2022-12-14-2023-11-01:semantic": 0.3798495000000912,
+    "mozilla-2023-11-01-2024-04-05:textual": 0.002611800000522635,
+    "mozilla-2023-11-01-2024-04-05:tfidf": 0.003477799999927811,
+    "mozilla-2023-11-01-2024-04-05:semantic": 0.028053099999851838
+  },
+  "metric_notes": [
+    "Macro F1 includes active labels only, including no_pair for missed/spurious alignments.",
+    "Change precision/recall measures correspondence for non-unchanged rows, not semantic label correctness.",
+    "Model warm runtime is measured sequentially; no statistical significance claim."
+  ]
+}

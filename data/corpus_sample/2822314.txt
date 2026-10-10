@@ -1,0 +1,5 @@
+Data gathered by census surveys can be used only for statistical purposes and cannot be transmitted to other institutions or persons, unless processed and published as tables in such a way to avoid any reference to individuals.
+Istat has always guaranteed statistical confidentiality through proper organisation measures and internationally agreed statistical and computer science methodologies.
+The National Institute of Statistics guarantees data confidentiality also towards other public authorities.
+According to the law regulating privacy safeguard (Law n. 675/96) Istat is in charge of the survey, while the heads of the Department of Social Statistics and Department of Economic Statistics are the responsible persons for the 14th General Population and Housing Census and 8th Industry and Services Census, respectively.
+The Supervisory Authority for Personal Data Protection has recently expressed its advice about privacy safeguard during census operations.

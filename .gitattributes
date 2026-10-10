@@ -1,0 +1,7 @@
+# Preserve source and evidence bytes so provenance hashes survive cloning.
+* -text
+*.pdf binary
+*.png binary
+*.jpg binary
+data/** linguist-vendored
+submission/** linguist-documentation

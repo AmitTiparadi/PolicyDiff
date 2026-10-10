@@ -1,0 +1,10 @@
+{
+  "config": {
+    "engine": "semantic",
+    "match_threshold": 0.55,
+    "reword_threshold": 0.94,
+    "ambiguity_margin": 0.04,
+    "use_critical_checks": true
+  },
+  "basis": "Google development pairs, AI-reviewed reference labels; publishers held out for evaluation"
+}

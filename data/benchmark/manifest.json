@@ -1,0 +1,249 @@
+{
+  "annotation_authority": "AI-reviewed reference labels; no independent human validation",
+  "unchanged_authority": "Exact normalized text anchors",
+  "split": "All Google pairs development; Mozilla and Automattic held out by publisher",
+  "pairs": [
+    {
+      "id": "automattic-2022-12-30-2023-11-02",
+      "publisher": "automattic",
+      "partition": "test",
+      "old_clauses": 292,
+      "new_clauses": 311,
+      "labels": {
+        "unchanged": 271,
+        "modified": 5,
+        "reworded": 7,
+        "removed": 1,
+        "added": 2
+      },
+      "excluded_groups": [
+        {
+          "old_ids": [
+            119
+          ],
+          "new_ids": [
+            120,
+            121,
+            122,
+            123,
+            124,
+            125
+          ],
+          "reason": "Equivalent legal basis paragraph split into a heading and five numbered clauses."
+        },
+        {
+          "old_ids": [
+            254,
+            255,
+            256,
+            257,
+            258,
+            259
+          ],
+          "new_ids": [
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274
+          ],
+          "reason": "Controller address block reformatted as Markdown tables. Fragmented addresses and scope labels prevent auditable one-to-one ground correspondence."
+        },
+        {
+          "old_ids": [
+            289
+          ],
+          "new_ids": [
+            304,
+            305,
+            306,
+            307,
+            308
+          ],
+          "reason": "Translation links and controlling-language clause split across lines; same group meaning."
+        },
+        {
+          "old_ids": [],
+          "new_ids": [
+            221
+          ],
+          "reason": "Italic section heading is currently segmented as a clause; editorial parser failure."
+        }
+      ],
+      "excluded_old": [
+        119,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        289
+      ],
+      "excluded_new": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        221,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        304,
+        305,
+        306,
+        307,
+        308
+      ],
+      "old_sha256": "3708c597694dd327aa014cc215b68c80070f28d1ccfb934d1dace5975006eb84",
+      "new_sha256": "46597c3873c3127a06b055d7d7dd4e17eb29006478bf1be3d03b26970b69f97e",
+      "annotation_sha256": "956f27f155c6ac5fd206dbd1aff59dc10b6e4367a32e1d30f60dbfeb55f98a11"
+    },
+    {
+      "id": "automattic-2023-11-02-2024-04-22",
+      "publisher": "automattic",
+      "partition": "test",
+      "old_clauses": 311,
+      "new_clauses": 311,
+      "labels": {
+        "unchanged": 309,
+        "reworded": 1,
+        "modified": 1
+      },
+      "excluded_groups": [],
+      "excluded_old": [],
+      "excluded_new": [],
+      "old_sha256": "46597c3873c3127a06b055d7d7dd4e17eb29006478bf1be3d03b26970b69f97e",
+      "new_sha256": "8caf64af9468c4baaa0ebb1c899c8c8c59e43cb6ae09f4239d7043c5b71e98b9",
+      "annotation_sha256": "705abc45fd406ff8b6f2fabd8d2d0efac1cc14c3e2f6311764e1c7f6f158fb44"
+    },
+    {
+      "id": "google-20190122-20191015",
+      "publisher": "google",
+      "partition": "development",
+      "old_clauses": 389,
+      "new_clauses": 396,
+      "labels": {
+        "unchanged": 385,
+        "modified": 2,
+        "reworded": 2,
+        "added": 7
+      },
+      "excluded_groups": [],
+      "excluded_old": [],
+      "excluded_new": [],
+      "old_sha256": "b41ba407fed8581bbc273158b820c06f50259bb78bfb26932ef986529ff09cc4",
+      "new_sha256": "e2e36f9a925452004a672adc9b8ddabe4a38a91c9de32e25758addc2593faec9",
+      "annotation_sha256": "3cec8a413f7efcd8574de161e75a4c5a677fdbcda049450e5a82e169b20f5602"
+    },
+    {
+      "id": "google-20230701-20231004",
+      "publisher": "google",
+      "partition": "development",
+      "old_clauses": 422,
+      "new_clauses": 421,
+      "labels": {
+        "unchanged": 421,
+        "removed": 1
+      },
+      "excluded_groups": [],
+      "excluded_old": [],
+      "excluded_new": [],
+      "old_sha256": "feffda4fcc642c9a504f4b4a30a45abe6697353a4783321a950fda0fe778f300",
+      "new_sha256": "68ec37199ae316623b1c5bb9e8f7610c77e844d8802b833bc9995dd634254543",
+      "annotation_sha256": "cd41a2afc5ae720d28c9d2b68545977c414f4b1df2fa82b809953bf138e72ab6"
+    },
+    {
+      "id": "google-20240328-20240916",
+      "publisher": "google",
+      "partition": "development",
+      "old_clauses": 440,
+      "new_clauses": 436,
+      "labels": {
+        "unchanged": 436,
+        "removed": 4
+      },
+      "excluded_groups": [],
+      "excluded_old": [],
+      "excluded_new": [],
+      "old_sha256": "ec47e81fdf5d87846d52ef1f837782ee38d031ea148ff6370886be79fbe499f3",
+      "new_sha256": "f1eaf5dc5e7beae5ceeb423c0c3fbc8b520b68557853969ab43837496ff6e2e5",
+      "annotation_sha256": "6e5c9c0f79c39e517ce53e0cfa45b746244e0c761a928c2dfe2412f00424084a"
+    },
+    {
+      "id": "mozilla-2022-12-14-2023-11-01",
+      "publisher": "mozilla",
+      "partition": "test",
+      "old_clauses": 73,
+      "new_clauses": 70,
+      "labels": {
+        "unchanged": 39,
+        "modified": 13,
+        "reworded": 14,
+        "removed": 5,
+        "added": 3
+      },
+      "excluded_groups": [
+        {
+          "old_ids": [
+            13,
+            14
+          ],
+          "new_ids": [
+            13
+          ],
+          "reason": "Two sentences merged using a semicolon. One-to-one alignment cannot represent this equivalent group."
+        }
+      ],
+      "excluded_old": [
+        13,
+        14
+      ],
+      "excluded_new": [
+        13
+      ],
+      "old_sha256": "1a746c7faa13e4f2ccdb62491539c07797c1b85304b5ee7ede841271b37dad8a",
+      "new_sha256": "1263d646d2ee5e1c4882d0ab04c88ac143829e9ef91083ea837f0a3f46deaba3",
+      "annotation_sha256": "967f04c80fc2d5f2e8dc8a4b09e480f10732ec5c3899e3a8742c12fc56efce36"
+    },
+    {
+      "id": "mozilla-2023-11-01-2024-04-05",
+      "publisher": "mozilla",
+      "partition": "test",
+      "old_clauses": 70,
+      "new_clauses": 70,
+      "labels": {
+        "unchanged": 69,
+        "modified": 1
+      },
+      "excluded_groups": [],
+      "excluded_old": [],
+      "excluded_new": [],
+      "old_sha256": "1263d646d2ee5e1c4882d0ab04c88ac143829e9ef91083ea837f0a3f46deaba3",
+      "new_sha256": "b8cd857c85a0d72a861e07587554794b7f996e1313a7945f5d55b2401614a30a",
+      "annotation_sha256": "36a242e5b907be4d40892bd3669186f9c1a46f932f03cde5fded4a90f5b6a0cc"
+    }
+  ]
+}

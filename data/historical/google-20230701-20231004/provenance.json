@@ -1,0 +1,23 @@
+{
+  "domain": "google.com",
+  "dataset": "Google publisher privacy policy archive",
+  "archive_index": "https://policies.google.com/privacy/archive",
+  "retrieved_at": "2026-10-10T05:12:15.597023+00:00",
+  "annotation_status": "Unannotated real policy pair; not part of PrivaSeer or Princeton corpus.",
+  "extraction": "Leaf headings, paragraphs, and list items in the main HTML container; HTML retained with embedded Google API keys redacted. raw_sha256 records the original response; stored_html_sha256 records the sanitized file.",
+  "rights": "Original policy text belongs to the publisher; retained for academic comparison.",
+  "old": {
+    "effective_date": "2023-07-01",
+    "source_url": "https://policies.google.com/privacy/archive/20230701?hl=en",
+    "raw_sha256": "dc7e6dcb8d2d9939d9c9cf19d0fc1e56d9e831e4a01550add132e8439aeb11e1",
+    "text_sha256": "feffda4fcc642c9a504f4b4a30a45abe6697353a4783321a950fda0fe778f300",
+    "stored_html_sha256": "9853cacd5380e04017731e3fff5a1aed633fa08db11c0c5801e3ea0cd75ebb6b"
+  },
+  "new": {
+    "effective_date": "2023-10-04",
+    "source_url": "https://policies.google.com/privacy/archive/20231004?hl=en",
+    "raw_sha256": "e8e75038fbb891e2f7133fdaf0ae42eb8b685da9225538ac7da30694fcc55308",
+    "text_sha256": "68ec37199ae316623b1c5bb9e8f7610c77e844d8802b833bc9995dd634254543",
+    "stored_html_sha256": "d12fed9fd8327370cb915aff685de13b538069451324585933d92cd9c1383fce"
+  }
+}

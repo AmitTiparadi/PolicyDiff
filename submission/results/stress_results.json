@@ -1,0 +1,203 @@
+{
+  "authority": "Nine AI-authored synthetic stress cases; not historical evidence",
+  "thresholds": [
+    {
+      "reword_threshold": 0.88,
+      "count": 9,
+      "correct": {
+        "without_checks": 4,
+        "with_checks": 8
+      }
+    },
+    {
+      "reword_threshold": 0.94,
+      "count": 9,
+      "correct": {
+        "without_checks": 5,
+        "with_checks": 8
+      }
+    }
+  ],
+  "cases": [
+    {
+      "topic": "retention",
+      "old": "We retain your account records for 30 days after account deletion.",
+      "new": "We retain your account records for 90 days after account deletion.",
+      "reference": "modified",
+      "reword_threshold": 0.88,
+      "without_checks": "reworded",
+      "similarity": 0.9500622848006519,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "age",
+      "old": "Our service is intended for users who are at least 18 years old.",
+      "new": "Our service is intended for users who are at least 21 years old.",
+      "reference": "modified",
+      "reword_threshold": 0.88,
+      "without_checks": "reworded",
+      "similarity": 0.9703488785698292,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "unit",
+      "old": "We store your payment records for 30 days.",
+      "new": "We store your payment records for 30 years.",
+      "reference": "modified",
+      "reword_threshold": 0.88,
+      "without_checks": "reworded",
+      "similarity": 0.9223288477883282,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "negation",
+      "old": "We do not share your personal information with advertisers.",
+      "new": "We share your personal information with advertisers.",
+      "reference": "modified",
+      "reword_threshold": 0.88,
+      "without_checks": "modified",
+      "similarity": 0.6588775875218096,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "permission",
+      "old": "We will delete your records when you close your account.",
+      "new": "We may delete your records when you close your account.",
+      "reference": "modified",
+      "reword_threshold": 0.88,
+      "without_checks": "reworded",
+      "similarity": 0.9784553651365636,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "data type",
+      "old": "We collect your email address to process your account request.",
+      "new": "We collect your location to process your account request.",
+      "reference": "modified",
+      "reword_threshold": 0.88,
+      "without_checks": "modified",
+      "similarity": 0.7993944436102465,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "paraphrase",
+      "old": "You can ask us to delete your personal data.",
+      "new": "You may request deletion of your personal information.",
+      "reference": "reworded",
+      "reword_threshold": 0.88,
+      "without_checks": "modified",
+      "similarity": 0.855867738976186,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "punctuation",
+      "old": "We protect your account records with encryption.",
+      "new": "We protect your account records with encryption!",
+      "reference": "reworded",
+      "reword_threshold": 0.88,
+      "without_checks": "reworded",
+      "similarity": 0.9483782299088757,
+      "with_checks": "reworded"
+    },
+    {
+      "topic": "unchanged",
+      "old": "We retain records for 30 days.",
+      "new": "We retain records for 30 days.",
+      "reference": "unchanged",
+      "reword_threshold": 0.88,
+      "without_checks": "unchanged",
+      "similarity": 0.0,
+      "with_checks": "unchanged"
+    },
+    {
+      "topic": "retention",
+      "old": "We retain your account records for 30 days after account deletion.",
+      "new": "We retain your account records for 90 days after account deletion.",
+      "reference": "modified",
+      "reword_threshold": 0.94,
+      "without_checks": "reworded",
+      "similarity": 0.9500622848006519,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "age",
+      "old": "Our service is intended for users who are at least 18 years old.",
+      "new": "Our service is intended for users who are at least 21 years old.",
+      "reference": "modified",
+      "reword_threshold": 0.94,
+      "without_checks": "reworded",
+      "similarity": 0.9703488785698292,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "unit",
+      "old": "We store your payment records for 30 days.",
+      "new": "We store your payment records for 30 years.",
+      "reference": "modified",
+      "reword_threshold": 0.94,
+      "without_checks": "modified",
+      "similarity": 0.9223288477883282,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "negation",
+      "old": "We do not share your personal information with advertisers.",
+      "new": "We share your personal information with advertisers.",
+      "reference": "modified",
+      "reword_threshold": 0.94,
+      "without_checks": "modified",
+      "similarity": 0.6588775875218096,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "permission",
+      "old": "We will delete your records when you close your account.",
+      "new": "We may delete your records when you close your account.",
+      "reference": "modified",
+      "reword_threshold": 0.94,
+      "without_checks": "reworded",
+      "similarity": 0.9784553651365636,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "data type",
+      "old": "We collect your email address to process your account request.",
+      "new": "We collect your location to process your account request.",
+      "reference": "modified",
+      "reword_threshold": 0.94,
+      "without_checks": "modified",
+      "similarity": 0.7993944436102465,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "paraphrase",
+      "old": "You can ask us to delete your personal data.",
+      "new": "You may request deletion of your personal information.",
+      "reference": "reworded",
+      "reword_threshold": 0.94,
+      "without_checks": "modified",
+      "similarity": 0.855867738976186,
+      "with_checks": "modified"
+    },
+    {
+      "topic": "punctuation",
+      "old": "We protect your account records with encryption.",
+      "new": "We protect your account records with encryption!",
+      "reference": "reworded",
+      "reword_threshold": 0.94,
+      "without_checks": "reworded",
+      "similarity": 0.9483782299088757,
+      "with_checks": "reworded"
+    },
+    {
+      "topic": "unchanged",
+      "old": "We retain records for 30 days.",
+      "new": "We retain records for 30 days.",
+      "reference": "unchanged",
+      "reword_threshold": 0.94,
+      "without_checks": "unchanged",
+      "similarity": 0.0,
+      "with_checks": "unchanged"
+    }
+  ]
+}

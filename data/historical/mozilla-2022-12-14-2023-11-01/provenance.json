@@ -1,0 +1,25 @@
+{
+  "publisher": "mozilla",
+  "domain": "mozilla.org",
+  "dataset": "Publisher-maintained policy Git history",
+  "repository": "https://github.com/mozilla/legal-docs",
+  "repository_path": "en/websites_privacy_notice.md",
+  "retrieved_at": "2026-10-10T05:32:09.908500+00:00",
+  "annotation_status": "Unannotated real historical pair",
+  "selection": "Last file commit before end of 2022, 2023, 2024; adjacent distinct versions",
+  "date_note": "Snapshot date is a Git author timestamp, not necessarily policy effective date.",
+  "old": {
+    "sha": "14709cb24d0899bb6763817f0f68f430ecc5d1f8",
+    "source_url": "https://raw.githubusercontent.com/mozilla/legal-docs/14709cb24d0899bb6763817f0f68f430ecc5d1f8/en/websites_privacy_notice.md",
+    "commit_url": "https://github.com/mozilla/legal-docs/commit/14709cb24d0899bb6763817f0f68f430ecc5d1f8",
+    "snapshot_date": "2022-12-14T01:45:53Z",
+    "sha256": "1a746c7faa13e4f2ccdb62491539c07797c1b85304b5ee7ede841271b37dad8a"
+  },
+  "new": {
+    "sha": "0a06f42cf64ba61996403746a8b4a40688de5a39",
+    "source_url": "https://raw.githubusercontent.com/mozilla/legal-docs/0a06f42cf64ba61996403746a8b4a40688de5a39/en/websites_privacy_notice.md",
+    "commit_url": "https://github.com/mozilla/legal-docs/commit/0a06f42cf64ba61996403746a8b4a40688de5a39",
+    "snapshot_date": "2023-11-01T16:37:25Z",
+    "sha256": "1263d646d2ee5e1c4882d0ab04c88ac143829e9ef91083ea837f0a3f46deaba3"
+  }
+}

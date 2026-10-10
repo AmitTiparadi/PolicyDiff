@@ -1,0 +1,43 @@
+How do we use cookies on this board?
+We use files known as cookies on AllesAmerika.com Forum to improve its performance and to enhance your user experience. By using AllesAmerika.com Forum you agree that we can place these types of files on your device.
+What are cookies?
+Cookies are small text files that a website may put on your computer, or mobile device, when you first visit that site or one of its pages.
+There are many functions that a cookie can serve. For example, a cookie will help the website, or another website, to recognise your device the next time you visit it. AllesAmerika.com Forum uses the term "cookies" in this policy to refer to all files that collect information in this way.
+Certain cookies contain personal information – for example, if you click on "remember me" when logging on, a cookie will store your username. Most cookies will not collect information that identifies you, but will instead collect more general information such as how users arrive at and use AllesAmerika.com Forum, or a user’s general location.
+What sort of cookies does AllesAmerika.com Forum use?
+Cookies can perform several different functions:
+1. Necessary Cookies
+Some cookies are essential for the operation of AllesAmerika.com Forum. These cookies enable services you have specifically asked for.
+2. Performance Cookies
+These cookies may collect anonymous information on the pages visited. For example, we might use performance cookies to keep track of which pages are most popular, which method of linking between pages is most effective and to determine why some pages are receiving error messages.
+3. Functionality Cookies
+These cookies remember choices you make to improve your experience.
+AllesAmerika.com Forum may also allow third parties to serve cookies that fall into any of the categories above. For example, like many sites, we may use Google Analytics to help us monitor our website traffic.
+Can a board user block cookies?
+To find out how to manage which cookies you allow, see your browser’s help section or your mobile device manual - or you can visit one of the sites below, which have detailed information on how to manage, control or delete cookies.
+Cookies on AllesAmerika.com Forum from social networking sites
+AllesAmerika.com Forum may have links to social networking websites (e.g. Facebook, Twitter or YouTube). These websites may also place cookies on your device and AllesAmerika.com Forum does not control how they use their cookies, therefore AllesAmerika.com Forum suggests you check their website(s) to see how they are using cookies.
+General Data Protection Regulation - 2018 (GDPR)
+To comply with the GDPR you need to be made aware that your AllesAmerika.com Forum account will, at a bare minimum, contain a uniquely identifiable name (hereinafter “your user name”), a personal password used for logging into your account (hereinafter “your password”) and a personal, valid email address (hereinafter “your email”). Your information for your account at AllesAmerika.com Forum is protected by data-protection laws applicable in the country that hosts us. Any information beyond your user name, your password, and your email address required by AllesAmerika.com Forum during the registration process is either mandatory or optional, at the discretion of AllesAmerika.com Forum. In all cases, you have the option of what information in your account is publicly displayed. Furthermore, within your account, you have the option to opt-in or opt-out of automatically generated emails.
+In this regard AllesAmerika.com Forum is a Data Processor of these data and according to the GDPR we must comply with alle regulations regarding the storage and use of this data.
+At AllesAmerika.com Forum we make sure these data are stored securely on our server, with in-reversible encryption for your password and strict access control to the database and files of AllesAmerika.com Forum.
+The webhosting company is a data processor in this matter and can't use any of the data without our explicit permission.
+AllesAmerika.com Forum takes back-ups to ensure the availability in case of disaster or failure.
+These back-ups are stored for a limited time on 2 locations, both within the european union, as is the server hosting.
+Furthermore we will store all of the IP address that you use to post with. Depending on your preferences AllesAmerika.com Forum may send you emails to the email address that AllesAmerika.com Forum holds in your account which will either be that you used when you registered or one that you have subsequently changed, but you are able to change these preferences from your User Control Panel (UCP) at any time should you wish to stop receiving them.
+The personal details that you gave us when you signed up, or added later, will be used solely for the purposes of AllesAmerika.com Forum board functionality. They will not be used for anything else and neither will they be passed on to any third party without your explicit consent. You can check, at any time, the personal details AllesAmerika.com Forum is holding about you from the Profile section of your UCP.
+The only other information about you is that which you decide to post in the fora, whereupon it is considered to be “publicly available” as it will have been indexed by search engines as well as on-line archive sites.
+The right to be forgotten can be exercised by contacting the management via the Contact page (link in the footer).
+Messages placed are not considered PII (personal identifiable information), but on request we will delete any PII that is within these messages, adjust your username and delete your acount.
+AllesAmerika.com Forum makes use of Google Adsense for showing you advertisements. Google Adsense will collect certain information (IP addresses, tracking cookies) in regards to this service.
+This information will be anonymized in accordance with GDPR regulations. For more information: https://www.google.com/about/company/us ... olicy.html
+AllesAmerika.com Forum makes use of StopForumSpam to check your IP address and username in a database of known abusers and spammers.
+StopForumSpam has guidelines about the processing of these data which you can check here: https://www.stopforumspam.com/gdpr & https://www.stopforumspam.com/privacy
+Please also consider reading the amendment on this privacy policy, with regards to the phpBB software at /ucp.php?mode=privacy .
+You can consult this Privacy & Cookie Policy at any time by following the link at the bottom or via /app.php/privacypolicy/policy .
+Board Disclaimer
+The views and comments posted in these fora are personal and do not necessarily represent the those of the Management of AllesAmerika.com Forum.
+The Management of AllesAmerika.com Forum does not, under any circumstances whatsoever, accept any responsibility for any advice, or recommentations, made by, or implied by, any member or guest vistor of AllesAmerika.com Forum that results in any loss whatsoever in any manner to a member of AllesAmerika.com Forum, or to any other person.
+Furthermore, the Management of AllesAmerika.com Forum is not, and cannot be, responsible for the content of any other Internet site(s) that have been linked to from AllesAmerika.com Forum.
+Nederlandse vertaling door phpBB.nl .
+All material on this site is protected by copyright. Either by ©AllesAmerika.com or the respective authors. All rights reserved.

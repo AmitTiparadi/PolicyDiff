@@ -1,0 +1,25 @@
+{
+  "publisher": "automattic",
+  "domain": "automattic.com",
+  "dataset": "Publisher-maintained policy Git history",
+  "repository": "https://github.com/Automattic/legalmattic",
+  "repository_path": "Privacy-Policy.md",
+  "retrieved_at": "2026-10-10T05:32:13.942863+00:00",
+  "annotation_status": "Unannotated real historical pair",
+  "selection": "Last file commit before end of 2022, 2023, 2024; adjacent distinct versions",
+  "date_note": "Snapshot date is a Git author timestamp, not necessarily policy effective date.",
+  "old": {
+    "sha": "84e5b954c7c45b93bdb41d43d76313f88fbf6975",
+    "source_url": "https://raw.githubusercontent.com/Automattic/legalmattic/84e5b954c7c45b93bdb41d43d76313f88fbf6975/Privacy-Policy.md",
+    "commit_url": "https://github.com/Automattic/legalmattic/commit/84e5b954c7c45b93bdb41d43d76313f88fbf6975",
+    "snapshot_date": "2022-12-30T22:02:39Z",
+    "sha256": "3708c597694dd327aa014cc215b68c80070f28d1ccfb934d1dace5975006eb84"
+  },
+  "new": {
+    "sha": "a556cc7fea32a9c52d0eecfbbdf7b55334b3282d",
+    "source_url": "https://raw.githubusercontent.com/Automattic/legalmattic/a556cc7fea32a9c52d0eecfbbdf7b55334b3282d/Privacy-Policy.md",
+    "commit_url": "https://github.com/Automattic/legalmattic/commit/a556cc7fea32a9c52d0eecfbbdf7b55334b3282d",
+    "snapshot_date": "2023-11-02T19:04:56Z",
+    "sha256": "46597c3873c3127a06b055d7d7dd4e17eb29006478bf1be3d03b26970b69f97e"
+  }
+}

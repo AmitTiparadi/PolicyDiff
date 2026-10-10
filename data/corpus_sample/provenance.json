@@ -1,0 +1,41 @@
+{
+  "source": "https://git.psu.edu/hlt-lab/PrivaSeer-Corpus",
+  "local_demo_txt_count": 4000,
+  "local_demo_html_count": 4000,
+  "profiled_count": 25,
+  "selection": "First 25 loadable English documents, sorted lexicographically; convenience sample",
+  "rejected_before_selection_complete": [
+    {
+      "document": "2821386.txt",
+      "reason": "No English policy text was found in this file."
+    }
+  ],
+  "role": "Preprocessing/readability demonstration. Single snapshots are not historical comparison pairs.",
+  "sample_sha256": {
+    "2818632": "2c1343a58b45c2175772da3def69dbb65c76dbcb4c27ebfb9373655a57bd0f91",
+    "2819154": "764b4327e6b25512f881932404a16eb8f22b7d1d6faeaca3e0ec845bbfd38082",
+    "2819656": "5bb48fa75a2daf6ac285fa2adc1f3a38c7d1e546d9d6bbb7b4de58c3cff12e99",
+    "2819659": "ced3bea980bc896695c649210ad54b805c40e9bd759b6e890f2e1f66111e2db0",
+    "2819738": "74bf1fe8a02ea8207ec2da3b30b6c2a608b7ecfd9e72b7929adab03c06083a5d",
+    "2819833": "e4547e1981defc97d14bf785b15449a922b8402ee9b3d1ca7667f678c8b187fb",
+    "2819961": "b2fe893aa51636564af91a853cd3c35f2accf827693268c7fc6a5d1bb2df6be2",
+    "2820299": "4682fd12e98c0f42f957e511b96f303892570db9c2bf4cf66a598de86a7a7c56",
+    "2820446": "5f5df84777f0c96df85379eac0fc69a37fe2c4f55811fc9181d1dc8b6c1a4846",
+    "2820460": "49a16dd8df3b5184e79f0f3c9d9e02a611ea960f9e4506974e1d0b7a809fc108",
+    "2820544": "e0a62e5b173c299ad8bfcf1bc72ae7886a7b219572031d91db3da813d0ed8ba3",
+    "2821136": "b0a1845f9cbf789cea0f5a09278c7541a44256a7da56d5d1fafbd876a4314baf",
+    "2821677": "934a964afdc6a9ce3da81fb41c5e97ac049718c3f29f99286c4804617fc0d132",
+    "2821722": "4c42f9f73fa185064e6d8e76d9859ec0e7287c1e7dfc68c3b2f1df543568ca83",
+    "2821734": "3777faff60839b5f1b06f22959da50627c71ba0f1fd61505485414ec61d5ca8d",
+    "2821759": "29729bdc3f92562dbbf074989c755cb2b92017625c7f26ca5b13554dcb7d8185",
+    "2821791": "60c0523d45bf3fb74f9afa9885d445cca142c468b21e8a54f88312fa9d12b6c1",
+    "2821942": "eb826de2e6af16cf42c35e4faf4bf69646c3705857cf3e6b32b3be8b29f6077b",
+    "2822009": "2cafdc99392557780063a980578e036ec1dcb0d51dc4938f7f9f10700d4abfb8",
+    "2822089": "450f61fa6ff83514a084109f4e8888a5fea0a9c49171a852b4db11a395de0061",
+    "2822202": "6347d56ea3001546f25cf131fc8ce37b39f2d4ef994d1545f755d0767a28425e",
+    "2822314": "f8851fee3ccae4db9e55b5884968cd892ecf2b05db609fdb5d07bf43295955f7",
+    "2822399": "ff9fdf6496c8942d65b774ae1b13b16d3c1497338cf4febd35ba8aeeac239a54",
+    "2822680": "081fef7a2973b8847c0baeb86874b83de253b23304788b4ecc9010899d7d1f5f",
+    "2822900": "809ff02f5576078e2d4d9706d55c1bf4f569f93630bbef4f3c5ed4a007d5de00"
+  }
+}

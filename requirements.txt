@@ -1,0 +1,15 @@
+beautifulsoup4>=4.12,<5
+nltk>=3.9,<4
+numpy>=1.26,<3
+scipy>=1.12,<2
+scikit-learn>=1.5,<2
+sentence-transformers>=3,<7
+transformers>=4.45,<5
+torch>=2.6,<3
+sentencepiece>=0.2,<1
+sacremoses>=0.1,<1
+textstat>=0.7,<1
+streamlit>=1.40,<2
+requests>=2.32,<3
+pytest>=8,<10
+sacrebleu>=2.4,<3

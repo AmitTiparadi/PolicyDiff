@@ -1,0 +1,11 @@
+clause_id,token,pos,stem,lemma
+0,retained,VBD,retain,retain
+0,records,NNS,record,record
+0,30,CD,30,30
+0,days,NNS,day,day
+1,not,RB,not,not
+1,share,NN,share,share
+1,email,NN,email,email
+2,contact,NNP,contact,contact
+2,us,PRP,us,us
+2,please,NN,pleas,please
