@@ -126,6 +126,10 @@ For human-reviewed evaluation, fill `human_label` for every non-exact row in `da
 
 The command rejects incomplete human labels. Detailed metrics, error cases, translation outputs, and integration checks are available in [`submission/results/`](submission/results/).
 
+## Optional English–Hindi fine-tuning
+
+Use the [Colab notebook](https://colab.research.google.com/github/AmitTiparadi/PolicyDiff/blob/main/notebooks/translation_finetuning.ipynb) to fine-tune on 3,000 IIT Bombay pairs for 1–3 epochs and compare pretrained versus fine-tuned BLEU on the same held-out test set. It logs validation loss, selects the best checkpoint by that loss, and exports plots, predictions, scores, and dataset provenance. See the [workflow guide](notebooks/README.md) for setup and limitations. Actual training results are generated when the notebook runs; the app's translation model remains pretrained until a reviewed model is integrated.
+
 ## Reports and project structure
 
 | Path | Contents |
