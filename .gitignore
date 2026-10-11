@@ -5,4 +5,4 @@ __pycache__/
 .pytest_cache/
 outputs/
 pytest-cache-files-*/
-submission/PolicyDiff_Submission.zip
+submission/

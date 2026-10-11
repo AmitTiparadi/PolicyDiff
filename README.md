@@ -124,9 +124,9 @@ For human-reviewed evaluation, fill `human_label` for every non-exact row in `da
 .venv/Scripts/python.exe -m scripts.benchmark --human-reviewed
 ```
 
-The command rejects incomplete human labels. Detailed metrics, error cases, translation outputs, and integration checks are available in [`submission/results/`](submission/results/).
+The command rejects incomplete human labels. Detailed metrics, error cases, translation outputs, and integration checks are generated locally and excluded from Git.
 
-## Reports and project structure
+## Project structure
 
 | Path | Contents |
 | --- | --- |
@@ -135,21 +135,7 @@ The command rejects incomplete human labels. Detailed metrics, error cases, tran
 | `scripts/` | Model setup, sourcing, evaluation, and report generation |
 | `tests/` | Automated behavior and regression tests |
 | `data/` | Example policies, historical snapshots, and benchmark references |
-| `submission/results/` | Saved evaluation results |
-| `submission/figures/` | Plots and interface screenshots |
 | `outputs/` | Locally generated comparison exports |
-
-Read the [technical report](submission/PolicyDiff_Report.pdf) or its [editable Markdown version](submission/PolicyDiff_Report.md) for methodology and detailed results.
-
-To rebuild the report and local source package from saved results:
-
-```powershell
-.venv/Scripts/python.exe -m pip install -r requirements-report.txt
-.venv/Scripts/python.exe -m scripts.build_submission
-.venv/Scripts/python.exe -m scripts.package_submission
-```
-
-Rerun evaluation first when results need updating. Packaging excludes the virtual environment, model cache, generated comparison outputs, and full PrivaSeer corpus, and checks inputs for common credential patterns.
 
 ## Limitations
 
