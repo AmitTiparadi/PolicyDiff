@@ -7,7 +7,7 @@ import pytest
 from scripts.verify_training_evidence import verify
 
 
-EVIDENCE = Path(__file__).resolve().parents[1] / 'submission/results/iitb_3000_seed42'
+EVIDENCE = Path(__file__).resolve().parents[1] / 'experiments/iitb_3000_seed42'
 
 
 def test_colab_evidence_recomputes_scores_and_checkpoint():

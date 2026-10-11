@@ -124,11 +124,11 @@ For human-reviewed evaluation, fill `human_label` for every non-exact row in `da
 .venv/Scripts/python.exe -m scripts.benchmark --human-reviewed
 ```
 
-The command rejects incomplete human labels. Detailed metrics, error cases, translation outputs, and integration checks are available in [`submission/results/`](submission/results/).
+The command rejects incomplete human labels. Evaluation outputs are generated locally and are excluded from Git.
 
 ## Optional English–Hindi fine-tuning
 
-Use the [Colab notebook](https://colab.research.google.com/github/AmitTiparadi/PolicyDiff/blob/main/notebooks/translation_finetuning.ipynb) to fine-tune on 3,000 IIT Bombay pairs for 1–3 epochs and compare both models on the same held-out test set. See the [workflow guide](notebooks/README.md) for setup and limitations.
+Use the [Colab notebook](https://colab.research.google.com/github/AmitTiparadi/PolicyDiff/blob/translation-finetuning/notebooks/translation_finetuning.ipynb) to fine-tune on 3,000 IIT Bombay pairs for 1–3 epochs and compare both models on the same held-out test set. See the [workflow guide](notebooks/README.md) for setup and limitations.
 
 A completed two-epoch T4 run used 3,000 training, 300 validation, and 500 test pairs. Validation loss selected the epoch-1 checkpoint. Scores recomputed from exported predictions were:
 
@@ -139,7 +139,7 @@ A completed two-epoch T4 run used 3,000 training, 300 validation, and 500 test p
 
 Fine-tuning reduced BLEU by **0.37 points** on this sample. Validation loss changed from 4.3742 before training to 4.3209 after epoch 1 and 4.3297 after epoch 2. This is a measured negative result, not evidence of improvement. These general-domain scores are separate from the Google policy diagnostic above. One seed and a small convenience sample do not establish statistical significance or privacy-domain quality; original pretraining overlap is unknown.
 
-The [experiment evidence](submission/results/iitb_3000_seed42/) includes exact sampled pairs, predictions, curves, configuration, and [verification results](submission/results/iitb_3000_seed42/verification.json). The app continues to use the pretrained model. Fine-tuned weights were not included in the evidence export.
+The [experiment evidence](experiments/iitb_3000_seed42/) includes exact sampled pairs, predictions, curves, configuration, and [verification results](experiments/iitb_3000_seed42/verification.json). The app continues to use the pretrained model. Fine-tuned weights were not included in the evidence export.
 
 ## Reports and project structure
 
@@ -150,21 +150,8 @@ The [experiment evidence](submission/results/iitb_3000_seed42/) includes exact s
 | `scripts/` | Model setup, sourcing, evaluation, and report generation |
 | `tests/` | Automated behavior and regression tests |
 | `data/` | Example policies, historical snapshots, and benchmark references |
-| `submission/results/` | Saved evaluation results |
-| `submission/figures/` | Plots and interface screenshots |
+| `experiments/` | Fine-tuning evidence retained on this branch |
 | `outputs/` | Locally generated comparison exports |
-
-Read the [technical report](submission/PolicyDiff_Report.pdf) or its [editable Markdown version](submission/PolicyDiff_Report.md) for methodology and detailed results.
-
-To rebuild the report and local source package from saved results:
-
-```powershell
-.venv/Scripts/python.exe -m pip install -r requirements-report.txt
-.venv/Scripts/python.exe -m scripts.build_submission
-.venv/Scripts/python.exe -m scripts.package_submission
-```
-
-Rerun evaluation first when results need updating. Packaging excludes the virtual environment, model cache, generated comparison outputs, and full PrivaSeer corpus, and checks inputs for common credential patterns.
 
 ## Limitations
 

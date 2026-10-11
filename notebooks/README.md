@@ -1,6 +1,6 @@
 # English–Hindi fine-tuning
 
-Open [the Colab notebook](https://colab.research.google.com/github/AmitTiparadi/PolicyDiff/blob/main/notebooks/translation_finetuning.ipynb), select **Runtime → Change runtime type → T4 GPU**, and run the cells in order. GPU availability and runtime limits depend on Colab; completion on a free runtime is not guaranteed.
+Open [the Colab notebook](https://colab.research.google.com/github/AmitTiparadi/PolicyDiff/blob/translation-finetuning/notebooks/translation_finetuning.ipynb), select **Runtime → Change runtime type → T4 GPU**, and run the cells in order. GPU availability and runtime limits depend on Colab; completion on a free runtime is not guaranteed.
 
 Defaults: 3,000 training pairs, 300 validation pairs, 500 test pairs, two epochs, batch size 4 with four-step gradient accumulation, maximum sequence length 128, and learning rate 2e-5. Set `EPOCHS` to 1–3 before starting. If memory is insufficient, start a fresh run with batch size 2 and accumulation 8. The script refuses to overwrite a nonempty output directory.
 
@@ -22,12 +22,12 @@ The pretrained baseline and the checkpoint with the lowest validation loss are e
 
 Download the evidence ZIP before disconnecting. Colab's `/content` is temporary. The evidence ZIP excludes large model/checkpoint directories; use the optional model-download cell if you want to retain the fine-tuned weights. Intermediate checkpoints can occupy several GB. Disconnections are not automatically resumed by this workflow.
 
-The [completed seed-42 run](../submission/results/iitb_3000_seed42/) trained for two epochs on a T4. Its selected epoch-1 checkpoint scored BLEU 10.04 versus pretrained 10.41, and chrF 31.12 versus 32.09. Exported predictions reproduce those scores. The app continues to use the pretrained model; the supplied evidence excludes model weights. IIT Bombay BLEU is a general-domain evaluation and does not replace the privacy-policy diagnostic.
+The [completed seed-42 run](../experiments/iitb_3000_seed42/) trained for two epochs on a T4. Its selected epoch-1 checkpoint scored BLEU 10.04 versus pretrained 10.41, and chrF 31.12 versus 32.09. Exported predictions reproduce those scores. The app continues to use the pretrained model; the supplied evidence excludes model weights. IIT Bombay BLEU is a general-domain evaluation and does not replace the privacy-policy diagnostic.
 
 Verify the exported evidence without loading model weights:
 
 ```powershell
-.venv/Scripts/python.exe -m scripts.verify_training_evidence submission/results/iitb_3000_seed42
+.venv/Scripts/python.exe -m scripts.verify_training_evidence experiments/iitb_3000_seed42
 ```
 
 For a local GPU run:
