@@ -243,24 +243,9 @@ def report(bench, stress, mt):
         ['Reference authority','Publisher-written Hindi; alignment reviewed by AI; independent bilingual review pending']],[180,300])
     image('translation_scores.png','Figure 6. Corpus reference-overlap metrics; these are not adequacy percentages.',2.1)
     p('Paragraph alignment was inspected before translation. Evaluation settings and signatures, model revision, source hash and all reference/output pairs are exported. Hindi prose may have multiple valid translations; low overlap is not automatically an incorrect translation. BLEU/chrF also do not establish preservation of legal negation, quantities or rights.')
-    p('Changed English clauses remain visible beside Hindi. Both earlier and later versions are translated. Inputs are processed in bounded chunks and output-limit failures are surfaced. The app uses the pretrained model; a separate IIT Bombay fine-tuning experiment is reported in Section 6a.')
+    p('Changed English clauses remain visible beside Hindi. Both earlier and later versions are translated. Inputs are processed in bounded chunks and output-limit failures are surfaced. No Hindi model fine-tuning was performed; it remains an optional comparison after a larger independent bilingual evaluation.')
     p('Observed demo failure: the retention translation omits or poorly renders the account-closure condition, despite preserving the number of days. This shows why numeric preservation and reference-overlap scores alone cannot establish meaning preservation. Keep the English evidence and obtain bilingual review.',True)
     image('hindi_interface.jpg','Figure 7. Retention detail from the verified local Hindi view; full screenshot supplied separately.',2.5,region=(380,85,810,380))
-
-    title('6a. IIT Bombay fine-tuning experiment')
-    ft=read('iitb_3000_seed42/comparison.json')
-    cfg=read('iitb_3000_seed42/run_config.json')
-    verification=read('iitb_3000_seed42/verification.json')
-    p(f"The pinned English-Hindi encoder-decoder was fine-tuned on {cfg['train_size']:,} IIT Bombay pairs for {cfg['epochs']} epochs on a {cfg['device']}. Validation used {cfg['validation_size']} pairs and both models were scored on the identical {cfg['test_size']}-pair test set. This is fine-tuning of pretrained weights, not training from random initialization.")
-    table(['Model','SacreBLEU (intl)','chrF'],[
-        ['Pretrained',f"{ft['pretrained']['bleu']:.2f}",f"{ft['pretrained']['chrf']:.2f}"],
-        ['Fine-tuned',f"{ft['fine_tuned']['bleu']:.2f}",f"{ft['fine_tuned']['chrf']:.2f}"],
-        ['Difference',f"{ft['bleu_delta']:+.2f}",f"{ft['fine_tuned']['chrf']-ft['pretrained']['chrf']:+.2f}"]],[180,150,150])
-    p(f"Minimum validation loss selected epoch {verification['selected_epoch']:.0f} (checkpoint 188). Initial loss was {ft['initial_validation_loss']:.4f}; epoch losses were " + ', '.join(f"{r['eval_loss']:.4f}" for r in verification['validation_epochs']) + f". Training took {ft['training_seconds']:.1f} seconds. Both decoders used four beams and a 128-token output cap; no missing-EOS outputs were recorded.")
-    image('../results/iitb_3000_seed42/loss_curve.png','Figure 7a. Recorded training and validation losses from the Colab run.',2.15)
-    p('Fine-tuning did not improve held-out BLEU or chrF in this run. Validation loss improved initially and rose slightly at epoch 2. Loss and decoded translation overlap measure different objectives; a lower validation loss does not guarantee better BLEU. The epoch-2 increase is consistent with possible overfitting but does not establish the cause of the test-score decrease.')
-    p('Official splits, duplicate/overlap filters, a 10,000-row bounded shuffle buffer, and a 128-token length filter define this small convenience sample. Model and data revisions, selected rows, loss history, decoding outputs, and hashes are retained. BLEU/chrF were independently recomputed from the exported predictions and matched; checkpoint selection and split hashes were verified. Model weights were not included, so training/inference was not independently rerun.',True)
-    p('This general-domain result cannot be compared directly with the 15-paragraph Google diagnostic. Pretraining overlap is unknown; one seed does not establish statistical significance. The pretrained model remains the app default, and fine-tuned weights require separate retention and domain evaluation before integration.',True)
 
     title('7. Implementation, contribution and novelty')
     p('The implemented contribution is an auditable workflow combining semantic matching, exact multiset anchors, global one-to-one assignment, conservative critical-wording checks, explicit ambiguity review and bilingual evidence. Numbers, units, negation and modal changes remain inspectable rather than disappearing during aggressive preprocessing. Exported reports retain clause IDs, sections, cleaned-text offsets and model revisions.')
@@ -311,7 +296,6 @@ def report(bench, stress, mt):
         ('Mozilla publisher history','https://github.com/mozilla/legal-docs'),
         ('Automattic publisher history','https://github.com/Automattic/legalmattic'),
         ('Published Hindi reference','https://policies.google.com/privacy/archive/20240328?hl=hi'),
-        ('IIT Bombay English-Hindi corpus','https://huggingface.co/datasets/cfilt/iitb-english-hindi'),
         ('SacreBLEU implementation and metric signatures','https://github.com/mjpost/sacrebleu')]
     for i,(name,url) in enumerate(references,1):
         story.append(Paragraph(f'{i}. {escape(name)}<br/><link href="{escape(url)}" color="#325d82">{escape(url)}</link>',styles['SmallPD']))

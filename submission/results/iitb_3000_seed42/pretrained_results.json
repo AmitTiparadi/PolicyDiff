@@ -1,8 +1,0 @@
-{
-  "bleu": 10.411084277663248,
-  "chrf": 32.08978863817837,
-  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:intl|smooth:exp|version:2.6.0",
-  "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0",
-  "seconds": 55.12328280899999,
-  "outputs_without_eos": 0
-}

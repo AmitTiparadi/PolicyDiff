@@ -22,13 +22,7 @@ The pretrained baseline and the checkpoint with the lowest validation loss are e
 
 Download the evidence ZIP before disconnecting. Colab's `/content` is temporary. The evidence ZIP excludes large model/checkpoint directories; use the optional model-download cell if you want to retain the fine-tuned weights. Intermediate checkpoints can occupy several GB. Disconnections are not automatically resumed by this workflow.
 
-The [completed seed-42 run](../submission/results/iitb_3000_seed42/) trained for two epochs on a T4. Its selected epoch-1 checkpoint scored BLEU 10.04 versus pretrained 10.41, and chrF 31.12 versus 32.09. Exported predictions reproduce those scores. The app continues to use the pretrained model; the supplied evidence excludes model weights. IIT Bombay BLEU is a general-domain evaluation and does not replace the privacy-policy diagnostic.
-
-Verify the exported evidence without loading model weights:
-
-```powershell
-.venv/Scripts/python.exe -m scripts.verify_training_evidence submission/results/iitb_3000_seed42
-```
+No fine-tuning metrics are pre-filled in the repository. The app continues to use its pretrained model until a completed fine-tuning run has been reviewed and integrated. IIT Bombay BLEU is a general-domain evaluation and must not replace the existing privacy-policy translation diagnostic.
 
 For a local GPU run:
 

@@ -140,33 +140,11 @@ The synthetic diagnostic isolates numeric periods, ages, duration units, negatio
 
 Paragraph alignment was inspected before translation. Evaluation settings and signatures, model revision, source hash and all reference/output pairs are exported. Hindi prose may have multiple valid translations; low overlap is not automatically an incorrect translation. BLEU/chrF also do not establish preservation of legal negation, quantities or rights.
 
-Changed English clauses remain visible beside Hindi. Both earlier and later versions are translated. Inputs are processed in bounded chunks and output-limit failures are surfaced. The app uses the pretrained model; a separate IIT Bombay fine-tuning experiment is reported in Section 6a.
+Changed English clauses remain visible beside Hindi. Both earlier and later versions are translated. Inputs are processed in bounded chunks and output-limit failures are surfaced. No Hindi model fine-tuning was performed; it remains an optional comparison after a larger independent bilingual evaluation.
 
 Observed demo failure: the retention translation omits or poorly renders the account-closure condition, despite preserving the number of days. This shows why numeric preservation and reference-overlap scores alone cannot establish meaning preservation. Keep the English evidence and obtain bilingual review.
 
 ![Figure 7. Retention detail from the verified local Hindi view; full screenshot supplied separately.](figures/hindi_interface.jpg)
-
-
-## 6a. IIT Bombay fine-tuning experiment
-
-The pinned English-Hindi encoder-decoder was fine-tuned on 3,000 IIT Bombay pairs for 2 epochs on a Tesla T4. Validation used 300 pairs and both models were scored on the identical 500-pair test set. This is fine-tuning of pretrained weights, not training from random initialization.
-
-| Model | SacreBLEU (intl) | chrF |
-| --- | --- | --- |
-| Pretrained | 10.41 | 32.09 |
-| Fine-tuned | 10.04 | 31.12 |
-| Difference | -0.37 | -0.97 |
-
-
-Minimum validation loss selected epoch 1 (checkpoint 188). Initial loss was 4.3742; epoch losses were 4.3209, 4.3297. Training took 141.8 seconds. Both decoders used four beams and a 128-token output cap; no missing-EOS outputs were recorded.
-
-![Figure 7a. Recorded training and validation losses from the Colab run.](figures/../results/iitb_3000_seed42/loss_curve.png)
-
-Fine-tuning did not improve held-out BLEU or chrF in this run. Validation loss improved initially and rose slightly at epoch 2. Loss and decoded translation overlap measure different objectives; a lower validation loss does not guarantee better BLEU. The epoch-2 increase is consistent with possible overfitting but does not establish the cause of the test-score decrease.
-
-Official splits, duplicate/overlap filters, a 10,000-row bounded shuffle buffer, and a 128-token length filter define this small convenience sample. Model and data revisions, selected rows, loss history, decoding outputs, and hashes are retained. BLEU/chrF were independently recomputed from the exported predictions and matched; checkpoint selection and split hashes were verified. Model weights were not included, so training/inference was not independently rerun.
-
-This general-domain result cannot be compared directly with the 15-paragraph Google diagnostic. Pretraining overlap is unknown; one seed does not establish statistical significance. The pretrained model remains the app default, and fine-tuned weights require separate retention and domain evaluation before integration.
 
 
 ## 7. Implementation, contribution and novelty
@@ -252,9 +230,7 @@ The report uses blank identity fields in a neutral academic layout. The official
 
 10. [Published Hindi reference](https://policies.google.com/privacy/archive/20240328?hl=hi)
 
-11. [IIT Bombay English-Hindi corpus](https://huggingface.co/datasets/cfilt/iitb-english-hindi)
-
-12. [SacreBLEU implementation and metric signatures](https://github.com/mjpost/sacrebleu)
+11. [SacreBLEU implementation and metric signatures](https://github.com/mjpost/sacrebleu)
 
 | Location | Contents |
 | --- | --- |

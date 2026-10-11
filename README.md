@@ -128,18 +128,7 @@ The command rejects incomplete human labels. Detailed metrics, error cases, tran
 
 ## Optional English–Hindi fine-tuning
 
-Use the [Colab notebook](https://colab.research.google.com/github/AmitTiparadi/PolicyDiff/blob/main/notebooks/translation_finetuning.ipynb) to fine-tune on 3,000 IIT Bombay pairs for 1–3 epochs and compare both models on the same held-out test set. See the [workflow guide](notebooks/README.md) for setup and limitations.
-
-A completed two-epoch T4 run used 3,000 training, 300 validation, and 500 test pairs. Validation loss selected the epoch-1 checkpoint. Scores recomputed from exported predictions were:
-
-| Model | IIT Bombay BLEU | IIT Bombay chrF |
-| --- | ---: | ---: |
-| Pretrained | 10.41 | 32.09 |
-| Fine-tuned | 10.04 | 31.12 |
-
-Fine-tuning reduced BLEU by **0.37 points** on this sample. Validation loss changed from 4.3742 before training to 4.3209 after epoch 1 and 4.3297 after epoch 2. This is a measured negative result, not evidence of improvement. These general-domain scores are separate from the Google policy diagnostic above. One seed and a small convenience sample do not establish statistical significance or privacy-domain quality; original pretraining overlap is unknown.
-
-The [experiment evidence](submission/results/iitb_3000_seed42/) includes exact sampled pairs, predictions, curves, configuration, and [verification results](submission/results/iitb_3000_seed42/verification.json). The app continues to use the pretrained model. Fine-tuned weights were not included in the evidence export.
+Use the [Colab notebook](https://colab.research.google.com/github/AmitTiparadi/PolicyDiff/blob/main/notebooks/translation_finetuning.ipynb) to fine-tune on 3,000 IIT Bombay pairs for 1–3 epochs and compare pretrained versus fine-tuned BLEU on the same held-out test set. It logs validation loss, selects the best checkpoint by that loss, and exports plots, predictions, scores, and dataset provenance. See the [workflow guide](notebooks/README.md) for setup and limitations. Actual training results are generated when the notebook runs; the app's translation model remains pretrained until a reviewed model is integrated.
 
 ## Reports and project structure
 
