@@ -10,9 +10,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     files = []
-    for name in ['app.py', 'README.md', '.gitignore', '.gitattributes', 'pytest.ini', 'requirements.txt', 'requirements-lock.txt', 'requirements-report.txt', 'requirements-training.txt']:
+    for name in ['app.py', 'README.md', '.gitignore', '.gitattributes', 'pytest.ini', 'requirements.txt', 'requirements-lock.txt', 'requirements-report.txt']:
         files.append(ROOT / name)
-    for name in ['.streamlit', 'policydiff', 'scripts', 'tests', 'data', 'submission', 'notebooks']:
+    for name in ['.streamlit', 'policydiff', 'scripts', 'tests', 'data', 'submission']:
         for path in (ROOT / name).rglob('*'):
             if path.is_file() and '__pycache__' not in path.parts and path.suffix not in {'.pyc', '.zip'} and path.name != 'package_manifest.json':
                 files.append(path)
