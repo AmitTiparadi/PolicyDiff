@@ -1,0 +1,24 @@
+{
+  "output": "/content/PolicyDiff/outputs/iitb_3000_seed42",
+  "train_size": 3000,
+  "validation_size": 300,
+  "test_size": 500,
+  "epochs": 2,
+  "batch_size": 4,
+  "accumulation_steps": 4,
+  "max_length": 128,
+  "beams": 4,
+  "learning_rate": 2e-05,
+  "seed": 42,
+  "allow_cpu": false,
+  "model": "Helsinki-NLP/opus-mt-en-hi",
+  "model_revision": "75d7f7c9232b2891c7d65fe4ef635616c72be867",
+  "device": "Tesla T4",
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.6",
+    "datasets": "4.8.5",
+    "accelerate": "1.15.0",
+    "sacrebleu": "2.6.0"
+  }
+}
